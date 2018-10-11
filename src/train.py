@@ -26,6 +26,8 @@ import s2v_model
 
 FLAGS = tf.flags.FLAGS
 
+tf.flags.DEFINE_string("results_path", None,
+                       "added by MB")
 tf.flags.DEFINE_string("input_file_pattern", None,
                        "File pattern of sharded TFRecord files containing")
 tf.flags.DEFINE_string("train_dir", None,
