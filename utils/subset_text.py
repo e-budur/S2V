@@ -1,7 +1,8 @@
 import os 
+import math
 
 # Print the number of lines in your document
-num_lines = sum(1 for line in open('filepath'))
+num_lines = sum(1 for line in open('YOUR_FILEPATH'))
 print(num_lines)
 
 # Splits the file located at 'filepath' into sub-files of length 'lines_per_file'
