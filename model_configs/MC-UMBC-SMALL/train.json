@@ -1,0 +1,17 @@
+{
+        "encoder": "gru",                            
+        "encoder_dim": 1200,                        
+        "bidir": true,                               
+        "checkpoint_path": "checkpoints",
+        "result_path": "results" ,
+        "vocab_configs": [                          
+        {
+                "mode": "fixed",                   
+                "name": "word_embedding",
+                "dim": 300,                          
+                "size": 2196018,                       
+                "vocab_file": "dictionaries/glove/glove.840B.300d_dictionary.txt",   
+                "embs_file": "dictionaries/glove/glove.840B.300d.npy"                     
+        }
+        ]
+}
