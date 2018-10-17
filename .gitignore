@@ -1,1 +1,6 @@
 data/
+.Rhistory
+.ipynb_checkpoints/
+
+
+*.pyc
