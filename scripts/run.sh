@@ -1,6 +1,6 @@
 RESULTS_HOME="results"
 MDL_CFGS="model_configs"
-GLOVE_PATH=""
+GLOVE_PATH="dictionaries/glove"
 
 DATA_DIR="data/UMBC-SMALL/TFRecords"
 NUM_INST=6063131 # Number of sentences
