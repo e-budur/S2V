@@ -9,10 +9,10 @@ TASK='SICK'
 
 MDLS_PATH="s2v_models"
 MDL_CFGS="model_configs"
-GLOVE_PATH="dictionaries/GloVe"
+GLOVE_PATH="dictionaries/glove"
 
 #CFG="BS400-W620-S1200-case-bidir"
-CFG="MC-BC"
+CFG="MC-UMBC-SMALL"
 #CFG="MC-UMBC"
 
 SKIPTHOUGHTS="ST_dir"

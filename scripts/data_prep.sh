@@ -1,7 +1,7 @@
 
-NUM_WORDS=100000
+NUM_WORDS=2196018
 OUTPUT_DIR="../data/UMBC-SMALL/TFRecords" 
-VOCAB_FILE="../data/UMBC-SMALL/vocabulary.txt"  
+VOCAB_FILE="../dictionaries/glove/glove.840B.300d_dictionary.txt"  
 TOKENIZED_FILES="../data/UMBC-SMALL/txt_tokenized/*"
 
 python src/data/preprocess_dataset.py \
