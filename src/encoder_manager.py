@@ -61,6 +61,7 @@ class EncoderManager(object):
 
     g = tf.Graph()
     with g.as_default():
+      print('model_config', model_config)
       encoder = s2v_encoder.s2v_encoder(model_config)
       restore_model = encoder.build_graph_from_config(model_config)
 

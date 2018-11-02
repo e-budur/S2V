@@ -32,7 +32,7 @@ def vocab_config(vocab_config, mode):
   config.name = vocab_config['name']
   config.dim = vocab_config['dim']
   config.size = vocab_config['size']
-  if config.mode == 'fixed' and mode != "eval":
+  if config.mode == 'fixed' and config.mode != 'eval':
     config.vocab_file = os.path.join(FLAGS.Glove_path, 'glove.840B.300d.txt')
     config.embs_file = os.path.join(FLAGS.Glove_path, 'glove.840B.300d.npy')
   elif mode == "encode" and config.mode == "trained":
