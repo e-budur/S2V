@@ -33,6 +33,8 @@ def read_vocab_embs(vocabulary_file, embedding_matrix_file):
                   embedding_matrix.shape)
   word_embedding_dict = collections.OrderedDict(
       zip(vocab, embedding_matrix))
+  
+  word_embedding_dict['<unk>'] = np.random.rand(1, embedding_matrix.shape[1]);
   return word_embedding_dict
 
 def read_vocab(vocabulary_file):
@@ -132,30 +134,26 @@ class s2v(object):
     for v in self.config.vocab_configs:
 
       if v.mode == 'fixed':
-        if self.mode == "train":
-          word_emb = tf.get_variable(
+        print('fixed word embedding', v.mode)
+        word_emb = tf.get_variable(
               name=v.name,
               shape=[v.size, v.dim],
               trainable=False)
-          embedding_placeholder = tf.placeholder(
+        embedding_placeholder = tf.placeholder(
               tf.float32, [v.size, v.dim])
-          embedding_init = word_emb.assign(embedding_placeholder)
+        embedding_init = word_emb.assign(embedding_placeholder)
 
-          rand = np.random.rand(1, v.dim)
-          word_vecs = np.load(v.embs_file)
-          load_vocab_size = word_vecs.shape[0]
-          assert(load_vocab_size == v.size - 1)
-          word_init = np.concatenate((rand, word_vecs), axis=0)
-          self.init = (embedding_init, embedding_placeholder, word_init)
-        
-        else:
-          word_emb = tf.get_variable(
-              name=v.name,
-              shape=[v.size, v.dim])
+        rand = np.random.rand(1, v.dim)
+        word_vecs = np.load(v.embs_file)
+        load_vocab_size = word_vecs.shape[0]
+        assert(load_vocab_size == v.size - 1)
+        word_init = np.concatenate((rand, word_vecs), axis=0)
+        self.init = (embedding_init, embedding_placeholder, word_init)
 
         encode_emb = tf.nn.embedding_lookup(word_emb, self.encode_ids)
         self.word_emb = word_emb
         self.encode_emb.extend([encode_emb, encode_emb])
+        
 
       if v.mode == 'trained':
         for inout in ["", "_out"]:

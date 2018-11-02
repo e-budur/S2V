@@ -25,6 +25,7 @@ import numpy as np
 import tensorflow as tf
 
 import s2v_model
+nltk.download('punkt')
 
 FLAGS = tf.flags.FLAGS
 
@@ -127,11 +128,13 @@ class s2v_encoder(object):
       ValueError: If checkpoint_path does not refer to a checkpoint file or a
         directory containing a checkpoint file.
     """
+    print('II-checkpoint_path, s2v_encoder.py', checkpoint_path)
     if tf.gfile.IsDirectory(checkpoint_path):
       latest_checkpoint = tf.train.latest_checkpoint(checkpoint_path)
       if not latest_checkpoint:
         raise ValueError("No checkpoint file found in: %s" % checkpoint_path)
       checkpoint_path = latest_checkpoint
+    print('III-checkpoint_path, s2v_encoder.py', checkpoint_path)
 
     def _restore_fn(sess):
       tf.logging.info("Loading model from checkpoint: %s", checkpoint_path)
@@ -158,6 +161,7 @@ class s2v_encoder(object):
     model.build_enc()
     self._embeddings = model.word_embeddings
     saver = tf.train.Saver()
+    print('model_config.checkpoint_path, s2v_encoder.py, ', model_config.checkpoint_path)
     checkpoint_path = model_config.checkpoint_path
 
     return self._create_restore_fn(checkpoint_path, saver)
