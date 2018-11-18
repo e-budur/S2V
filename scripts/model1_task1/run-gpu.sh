@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+export PATH=/truba/home/ebudur/cuda-9.0/bin:/truba/home/ebudur/anaconda2/bin:$PATH
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/truba/home/ebudur/cuda-9.0/lib64
+
 WORK_DIR="/truba/home/ebudur/tse-s2v" #needs to be changed according to your specific environment
 RESULTS_HOME="$WORK_DIR/data/results-gpu"
 MDL_CFGS="$WORK_DIR/model_configs"

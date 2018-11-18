@@ -1,0 +1,146 @@
+INFO:tensorflow:Found 3 input files.
+INFO:tensorflow:Creating vocabulary.
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/hurriyet/hurriyet-all-nz.txt.no_punct.txt
+INFO:tensorflow:Processed 1000000 sentences
+INFO:tensorflow:Processed 2000000 sentences
+INFO:tensorflow:Processed 3000000 sentences
+INFO:tensorflow:Processed 4000000 sentences
+INFO:tensorflow:Processed 5000000 sentences
+INFO:tensorflow:Processed 6000000 sentences
+INFO:tensorflow:Processed 7000000 sentences
+INFO:tensorflow:Processed 8000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/milliyet/milliyet_news_sentences_utf8.txt.no_punct.txt
+INFO:tensorflow:Processed 9000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/trwiki/trwiki-extracted_raw_sentences_by_lines.txt.no_punct.txt
+INFO:tensorflow:Processed 10000000 sentences
+INFO:tensorflow:Processed 11000000 sentences
+INFO:tensorflow:Processed 12000000 sentences
+INFO:tensorflow:Processed 13000000 sentences
+INFO:tensorflow:Processed 14000000 sentences
+INFO:tensorflow:Processed 15000000 sentences
+INFO:tensorflow:Processed 16000000 sentences
+INFO:tensorflow:Processed 17000000 sentences
+INFO:tensorflow:Processed 18000000 sentences
+INFO:tensorflow:Processed 19000000 sentences
+INFO:tensorflow:Processed 20000000 sentences
+INFO:tensorflow:Processed 21000000 sentences
+INFO:tensorflow:Processed 22000000 sentences
+INFO:tensorflow:Processed 23000000 sentences
+INFO:tensorflow:Processed 24000000 sentences
+INFO:tensorflow:Processed 24711183 sentences total
+INFO:tensorflow:Created vocab with 100000 words
+INFO:tensorflow:Wrote vocab file to /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/vocab.txt
+INFO:tensorflow:Wrote word counts file to /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/word_counts.txt
+INFO:tensorflow:Generating dataset.
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/hurriyet/hurriyet-all-nz.txt.no_punct.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/hurriyet/hurriyet-all-nz.txt.no_punct.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/milliyet/milliyet_news_sentences_utf8.txt.no_punct.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/milliyet/milliyet_news_sentences_utf8.txt.no_punct.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/trwiki/trwiki-extracted_raw_sentences_by_lines.txt.no_punct.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/trwiki/trwiki-extracted_raw_sentences_by_lines.txt.no_punct.txt
+INFO:tensorflow:Generated dataset with 24711183 sentences.
+INFO:tensorflow:Writing dataset train
+INFO:tensorflow:Wrote dataset indices [0, 246611) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00000-of-00100
+INFO:tensorflow:Wrote dataset indices [246611, 493223) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00001-of-00100
+INFO:tensorflow:Wrote dataset indices [493223, 739835) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00002-of-00100
+INFO:tensorflow:Wrote dataset indices [739835, 986447) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00003-of-00100
+INFO:tensorflow:Wrote dataset indices [986447, 1233059) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00004-of-00100
+INFO:tensorflow:Wrote dataset indices [1233059, 1479670) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00005-of-00100
+INFO:tensorflow:Wrote dataset indices [1479670, 1726282) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00006-of-00100
+INFO:tensorflow:Wrote dataset indices [1726282, 1972894) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00007-of-00100
+INFO:tensorflow:Wrote dataset indices [1972894, 2219506) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00008-of-00100
+INFO:tensorflow:Wrote dataset indices [2219506, 2466118) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00009-of-00100
+INFO:tensorflow:Wrote dataset indices [2466118, 2712730) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00010-of-00100
+INFO:tensorflow:Wrote dataset indices [2712730, 2959341) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00011-of-00100
+INFO:tensorflow:Wrote dataset indices [2959341, 3205953) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00012-of-00100
+INFO:tensorflow:Wrote dataset indices [3205953, 3452565) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00013-of-00100
+INFO:tensorflow:Wrote dataset indices [3452565, 3699177) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00014-of-00100
+INFO:tensorflow:Wrote dataset indices [3699177, 3945789) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00015-of-00100
+INFO:tensorflow:Wrote dataset indices [3945789, 4192401) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00016-of-00100
+INFO:tensorflow:Wrote dataset indices [4192401, 4439012) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00017-of-00100
+INFO:tensorflow:Wrote dataset indices [4439012, 4685624) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00018-of-00100
+INFO:tensorflow:Wrote dataset indices [4685624, 4932236) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00019-of-00100
+INFO:tensorflow:Wrote dataset indices [4932236, 5178848) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00020-of-00100
+INFO:tensorflow:Wrote dataset indices [5178848, 5425460) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00021-of-00100
+INFO:tensorflow:Wrote dataset indices [5425460, 5672072) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00022-of-00100
+INFO:tensorflow:Wrote dataset indices [5672072, 5918683) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00023-of-00100
+INFO:tensorflow:Wrote dataset indices [5918683, 6165295) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00024-of-00100
+INFO:tensorflow:Wrote dataset indices [6165295, 6411907) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00025-of-00100
+INFO:tensorflow:Wrote dataset indices [6411907, 6658519) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00026-of-00100
+INFO:tensorflow:Wrote dataset indices [6658519, 6905131) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00027-of-00100
+INFO:tensorflow:Wrote dataset indices [6905131, 7151743) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00028-of-00100
+INFO:tensorflow:Wrote dataset indices [7151743, 7398354) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00029-of-00100
+INFO:tensorflow:Wrote dataset indices [7398354, 7644966) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00030-of-00100
+INFO:tensorflow:Wrote dataset indices [7644966, 7891578) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00031-of-00100
+INFO:tensorflow:Wrote dataset indices [7891578, 8138190) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00032-of-00100
+INFO:tensorflow:Wrote dataset indices [8138190, 8384802) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00033-of-00100
+INFO:tensorflow:Wrote dataset indices [8384802, 8631414) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00034-of-00100
+INFO:tensorflow:Wrote dataset indices [8631414, 8878025) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00035-of-00100
+INFO:tensorflow:Wrote dataset indices [8878025, 9124637) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00036-of-00100
+INFO:tensorflow:Wrote dataset indices [9124637, 9371249) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00037-of-00100
+INFO:tensorflow:Wrote dataset indices [9371249, 9617861) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00038-of-00100
+INFO:tensorflow:Wrote dataset indices [9617861, 9864473) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00039-of-00100
+INFO:tensorflow:Wrote dataset indices [9864473, 10111085) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00040-of-00100
+INFO:tensorflow:Wrote dataset indices [10111085, 10357696) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00041-of-00100
+INFO:tensorflow:Wrote dataset indices [10357696, 10604308) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00042-of-00100
+INFO:tensorflow:Wrote dataset indices [10604308, 10850920) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00043-of-00100
+INFO:tensorflow:Wrote dataset indices [10850920, 11097532) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00044-of-00100
+INFO:tensorflow:Wrote dataset indices [11097532, 11344144) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00045-of-00100
+INFO:tensorflow:Wrote dataset indices [11344144, 11590756) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00046-of-00100
+INFO:tensorflow:Wrote dataset indices [11590756, 11837367) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00047-of-00100
+INFO:tensorflow:Wrote dataset indices [11837367, 12083979) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00048-of-00100
+INFO:tensorflow:Wrote dataset indices [12083979, 12330591) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00049-of-00100
+INFO:tensorflow:Wrote dataset indices [12330591, 12577203) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00050-of-00100
+INFO:tensorflow:Wrote dataset indices [12577203, 12823815) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00051-of-00100
+INFO:tensorflow:Wrote dataset indices [12823815, 13070426) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00052-of-00100
+INFO:tensorflow:Wrote dataset indices [13070426, 13317038) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00053-of-00100
+INFO:tensorflow:Wrote dataset indices [13317038, 13563650) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00054-of-00100
+INFO:tensorflow:Wrote dataset indices [13563650, 13810262) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00055-of-00100
+INFO:tensorflow:Wrote dataset indices [13810262, 14056874) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00056-of-00100
+INFO:tensorflow:Wrote dataset indices [14056874, 14303486) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00057-of-00100
+INFO:tensorflow:Wrote dataset indices [14303486, 14550097) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00058-of-00100
+INFO:tensorflow:Wrote dataset indices [14550097, 14796709) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00059-of-00100
+INFO:tensorflow:Wrote dataset indices [14796709, 15043321) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00060-of-00100
+INFO:tensorflow:Wrote dataset indices [15043321, 15289933) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00061-of-00100
+INFO:tensorflow:Wrote dataset indices [15289933, 15536545) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00062-of-00100
+INFO:tensorflow:Wrote dataset indices [15536545, 15783157) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00063-of-00100
+INFO:tensorflow:Wrote dataset indices [15783157, 16029768) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00064-of-00100
+INFO:tensorflow:Wrote dataset indices [16029768, 16276380) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00065-of-00100
+INFO:tensorflow:Wrote dataset indices [16276380, 16522992) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00066-of-00100
+INFO:tensorflow:Wrote dataset indices [16522992, 16769604) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00067-of-00100
+INFO:tensorflow:Wrote dataset indices [16769604, 17016216) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00068-of-00100
+INFO:tensorflow:Wrote dataset indices [17016216, 17262828) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00069-of-00100
+INFO:tensorflow:Wrote dataset indices [17262828, 17509439) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00070-of-00100
+INFO:tensorflow:Wrote dataset indices [17509439, 17756051) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00071-of-00100
+INFO:tensorflow:Wrote dataset indices [17756051, 18002663) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00072-of-00100
+INFO:tensorflow:Wrote dataset indices [18002663, 18249275) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00073-of-00100
+INFO:tensorflow:Wrote dataset indices [18249275, 18495887) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00074-of-00100
+INFO:tensorflow:Wrote dataset indices [18495887, 18742499) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00075-of-00100
+INFO:tensorflow:Wrote dataset indices [18742499, 18989110) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00076-of-00100
+INFO:tensorflow:Wrote dataset indices [18989110, 19235722) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00077-of-00100
+INFO:tensorflow:Wrote dataset indices [19235722, 19482334) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00078-of-00100
+INFO:tensorflow:Wrote dataset indices [19482334, 19728946) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00079-of-00100
+INFO:tensorflow:Wrote dataset indices [19728946, 19975558) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00080-of-00100
+INFO:tensorflow:Wrote dataset indices [19975558, 20222170) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00081-of-00100
+INFO:tensorflow:Wrote dataset indices [20222170, 20468781) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00082-of-00100
+INFO:tensorflow:Wrote dataset indices [20468781, 20715393) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00083-of-00100
+INFO:tensorflow:Wrote dataset indices [20715393, 20962005) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00084-of-00100
+INFO:tensorflow:Wrote dataset indices [20962005, 21208617) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00085-of-00100
+INFO:tensorflow:Wrote dataset indices [21208617, 21455229) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00086-of-00100
+INFO:tensorflow:Wrote dataset indices [21455229, 21701841) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00087-of-00100
+INFO:tensorflow:Wrote dataset indices [21701841, 21948452) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00088-of-00100
+INFO:tensorflow:Wrote dataset indices [21948452, 22195064) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00089-of-00100
+INFO:tensorflow:Wrote dataset indices [22195064, 22441676) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00090-of-00100
+INFO:tensorflow:Wrote dataset indices [22441676, 22688288) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00091-of-00100
+INFO:tensorflow:Wrote dataset indices [22688288, 22934900) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00092-of-00100
+INFO:tensorflow:Wrote dataset indices [22934900, 23181512) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00093-of-00100
+INFO:tensorflow:Wrote dataset indices [23181512, 23428123) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00094-of-00100
+INFO:tensorflow:Wrote dataset indices [23428123, 23674735) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00095-of-00100
+INFO:tensorflow:Wrote dataset indices [23674735, 23921347) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00096-of-00100
+INFO:tensorflow:Wrote dataset indices [23921347, 24167959) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00097-of-00100
+INFO:tensorflow:Wrote dataset indices [24167959, 24414571) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00098-of-00100
+INFO:tensorflow:Wrote dataset indices [24414571, 24661183) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/train-00099-of-00100
+INFO:tensorflow:Finished writing 24661183 sentences in dataset train.
+INFO:tensorflow:Writing dataset validation
+INFO:tensorflow:Wrote dataset indices [0, 50000) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/validation-00000-of-00001
+INFO:tensorflow:Finished writing 50000 sentences in dataset validation.

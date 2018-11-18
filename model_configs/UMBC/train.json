@@ -1,0 +1,16 @@
+{
+        "encoder": "gru",                            
+        "encoder_dim": 1200,                        
+        "bidir": true,                               
+        "checkpoint_path": "",
+        "vocab_configs": [                          
+        {
+                "mode": "trained",                   
+                "name": "word_embedding",
+                "dim": 620,                          
+                "size": 100000,                       
+                "vocab_file": "/truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/vocab.txt",   
+                "embs_file": ""                     
+        }
+        ]
+}
