@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/truba/home/ebudur/tse-s2v/utils/punctuation_stripper.py", line 4, in <module>
+    import regex as re
+ImportError: No module named regex
