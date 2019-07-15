@@ -1,145 +1,65 @@
-# Quick-Thought Vectors
+# Turkish-Sentence Encoder with Quick-Thought Vectors
+We are a team of graduate students working voluntarily at [Inzva Hacker Space](https://inzva.com) on building a model for Generic Sentence Encoder for the Turkish Language. Generic Sentence Encoders are used to let the computer understand what the user meant by their sentences. They are typically used in converstional assistants to understand the meaning of the user utterances. There are a number of recent research that are proposed for Generic Sentence Encoder for the English language as exemplified below.  
 
-This is a TensorFlow implementation accompanying our paper
+Universal Sentence Encoder (by Google AI)
+https://ai.google/research/pubs/pub46808
+
+Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning (by Microsoft Research)
+https://openreview.net/forum?id=B18WgG-CZ
+
+They leverage the Natural Language Inference (NLI) datasets to train their models as well as to evaluate their models as a downstream task. There are many NLI datasets that have been previously crowdsourced for the English language.  Examples in an NLI dataset can be seen below.
+
+An example of entailment (similarity).
+- Sentence 1: A senior is waiting at the window of a restaurant that serves sandwiches.
+- Sentence 2: A person waits to be served his food.
+ 
+An example of contradiction (dissimilarity).
+- Sentence 1: A senior is waiting at the window of a restaurant that serves sandwiches.
+- Sentence 2: A man is waiting in line for the bus.
+
+Examples are taken from The Stanford Natural Language Inference (SNLI) Corpus (https://nlp.stanford.edu/projects/snli).
+
+We want to build a Generic Sentence Encoder model for the Turkish. However, there are not any NLI datasets in the Turkish language due to the high cost of crowdsourcing. We want to leverage the new Amazon Translate Service to translate the NLI datasets available in the English language into the Turkish language as a cost effective solution and publish the translated datasets publicly to boost Turkish NLP works. 
+
+:hatching_chick: (2019-01-26) Our research has been granted [AWS Research Credits (https://twitter.com/ebudur/status/1090301816183685120)   to translate the most commong NLI datasets into Turkish and evaluate our resulting NLI models.
+
+:dart: (2019-03-31) We have applied for the AWS Research Credits again to translate all available NLI and Textual Entailment datasets into Turkish.
+
+# Experimentations
+
+# Experiment #1
+
+The results of the following experiments were obtained.
+
+
+
+* Model 1: Training Quick thought with minimal preprocessing (lowercase)
+   * Task 1: Using English dataset (UMBC)
+
+
+Experiment Name | Language      | Dataset        | Preprocessing                 |  Model # | Metric    | Value
+--------------- | ------------- | -------------  | ----------------------------- | -------- | --------- | -------------------
+model1_task1    | English       | SICK           |  Lowercase                    | Model1   | Pearson   | 0.8595461496671714
+model2_task1    | English       | SICK           |  Lowercase + sentencepiece    | Model2   | Pearson   | 0.8470309759444442
+model1_task1    | English       | SICK           |  Lowercase                    | Model1   | Spearman  | 0.7906599787429348
+model2_task1    | English       | SICK           |  Lowercase + sentencepiece    | Model2   | Spearman  | 0.7824858836725014
+model1_task1    | English       | SICK           |  Lowercase                    | Model1   | MSE       | 0.2669741153404767
+model2_task1    | English       | SICK           |  Lowercase + sentencepiece    | Model2   | MSE       | 0.28983657549983965
+model1_task1    | English       | SNLI           |  Lowercase                    | Model1   | Accuracy  | 71.32%
+model2_task1    | English       | SNLI           |  Lowercase + sentencepiece    | Model2   | Accuracy  | 69.63%
+model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                    | Model1   | Pearson   | 0.7767414617451377
+model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | Pearson   | 0.8076206267469718
+model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                    | Model1   | Spearman  | 0.7042856789726142
+model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | Spearman  | 0.7348411904626335
+model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                    | Model1   | MSE       | 0.40369925427270614
+model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | MSE       | 0.3561044127205771
+model1_task2    | Turkish       | SNLI           |  Lowercase                    | Model1   | Accuracy  | 62.41%
+model2_task2    | Turkish       | SNLI           |  Lowercase + sentencepiece    | Model2   | Accuracy  | 64.38%
+
+The results of the models on the MultiNLI and XNLI datasets were not included in the table since they need some more analysis.
+
+- - - -
+This repository is based on the implementation of the following paper in [this](https://github.com/lajanugen/S2V) Github repository.
 
 Lajanugen Logeswaran, Honglak Lee, 
 [An efficient framework for learning sentence representations](https://arxiv.org/pdf/1803.02893.pdf). In ICLR, 2018.
-
-This codebase is based on Chris Shallue's [Tensorflow implementation](https://github.com/tensorflow/models/tree/master/research/skip_thoughts) of the SkipThought model. 
-The data preparation, vocabulary expansion and evaluation scripts have been adopted with minor changes.
-Other code files have been modified and re-structured with changes specific to our model.
-
-### Contents
-* [Model configuration files](#model-configuration-files)
-* [Pretrained Models](#pretrained-models)
-* [Training a Model](#training-a-model)
-* [Evaluating a Model](#evaluating-a-model)
-
-## Model configuration files
-
-We use json configuration files to describe models. These configuration files provide a concise description of a model. They also make it easy to concatenate representations from different models/types of models at evaluation time.
-
-The description of a sentence encoder has the following format.
-```
-{
-        "encoder": "gru",                            # Type of encoder
-        "encoder_dim": 1200,                         # Dimensionality of encoder
-        "bidir": true,                               # Uni/bi directional
-        "checkpoint_path": "",                       # Path to checkpoint
-        "vocab_configs": [                           # Configuration of vocabulary/word embeddings
-        {
-                "mode": "trained",                   # Vocabulary mode: fixed/trained/expand
-                "name": "word_embedding",
-                "dim": 620,                          # Word embedding size
-                "size": 50001,                       # Size of vocabulary
-                "vocab_file": "BC_dictionary.txt",   # Dictionary file
-                "embs_file": ""                      # Provide external embeddings file
-        }
-        ]
-}
-```
-
-Vocabulary mode can be one of *fixed*, *trained* or *expand*. These modes represent the following cases.
-* *fixed* - Use fixed, pre-trained embeddings.
-* *trained* - Train word embeddings from scratch. 
-* *expand* - Use an expanded vocabulary. This mode is only used during evaluation on downstream tasks.
-
-`checkpoint_path` and `vocab_file` have to be specified only for evaluation.
-
-For concatenating representations from multiple sentence encoders at evaluation time, the json file can be a list of multiple encoder specifications. See `model_configs/BC/eval.json` for an example. 
-
-
-## Pretrained Models
-Models trained on the BookCorpus and UMBC datasets can be downloaded from [https://bit.ly/2uttm2j](https://bit.ly/2uttm2j).
-These models are the multi-channel variations (MC-QT) discussed in the paper.
-If you are interested in evaluating these models or using them in your tasks, jump to [Evaluation on downstream tasks](#evaluation-on-downstream-tasks).
-
-
-## Training a Model
-
-### Prepare the Training Data
-
-The training script requires data to be in (sharded) TFRecord format. 
-`scripts/data_prep.sh` can be used to generate these files.
-The script requires a dictionary file and comma-separated paths to files containing tokenized sentences.
-* The dictionary file should have a single word in each line. We assume that the first token ("\<unk>") represets OOV words.
-* The data files are expected to have a tokenized sentence in each line, in the same order as the source document. 
-
-The following datasets were used for training out models.
-* [BookCorpus](http://yknzhu.wixsite.com/mbweb) 
-* [UMBC](https://ebiquity.umbc.edu/blogger/2013/05/01/umbc-webbase-corpus-of-3b-english-words)
-
-The dictionary files we used for training our models are available at [https://bit.ly/2G6E14q](https://bit.ly/2G6E14q).
-
-### Run the Training Script
-
-Use the `run.sh` script to train a model. 
-The following variables have to be specified.
-
-```
-* DATA_DIR      # Path to TFRecord files
-* RESULTS_HOME  # Directory to store results
-* CFG           # Name of model configuration 
-* MDL_CFGS      # Path to model configuration files
-* GLOVE_PATH    # Path to GloVe dictionary and embeddings
-```
-
-Example configuration files are provided in the model\_configs folder. During training, model files will be stored under a directory named `$RESULTS_HOME/$CFG`.
-
-### Training using pre-trained word embeddings
-
-The implementation supports using fixed pre-trained GloVe word embeddings.
-The code expects a numpy array file consisting of the GloVe word embeddings named `glove.840B.300d.npy` in the `$GLOVE_PATH` folder.
-
-## Evaluating a Model
-
-### Expanding the Vocabulary
-
-Once the model is trained, the vocabulary used for training can be optionally expanded to a larger vocabulary using the technique proposed by the SkipThought paper. 
-The `voc_exp.sh` script can be used to perform expansion. 
-Since Word2Vec embeddings are used for expansion, you will have to download the Word2Vec model. 
-You will also need the gensim library to run the script.
-
-### Evaluation on downstream tasks
-
-Use the `eval.sh` script for evaluation. The following variables need to be set.
-
-```
-* SKIPTHOUGHTS  # Path to SkipThoughts implementation
-* DATA          # Data directory for downstream tasks
-* TASK          # Name of the task
-* MDLS_PATH     # Path to model files
-* MDL_CFGS      # Path to model configuration files
-* CFG           # Name of model configuration 
-* GLOVE_PATH    # Path to GloVe dictionary and embeddings
-```
-
-Evaluation scripts for the downstream tasks from the authors of the SkipThought model are used. These scripts train a linear layer on top of the sentence embeddings for each task. 
-You will need to clone or download the [skip-thoughts GitHub repository](https://github.com/ryankiros/skip-thoughts) by [ryankiros](https://github.com/ryankiros).
-Set the `DATA` variable to the directory containing data for the downstream tasks. 
-See the above repository for further details regarding downloading and setting up the data.
-
-To evaluate the pre-trained models, set the directory variables appropriately.
-Set `MDLS_PATH` to the directory of downloaded models.
-Set the configuration variable `CFG` to one of 
-* `MC-BC` (Multi-channel BookCorpus model) or 
-* `MC-UMBC` (Multi-channel BookCorpus + UMBC model)
-
-Set the `TASK` variable to the task of interest.
-
-## Reference
-
-If you found our code useful, please cite us [1](https://arxiv.org/pdf/1803.02893.pdf).
-
-```
-@inproceedings{
-logeswaran2018an,
-  title={An efficient framework for learning sentence representations},
-  author={Lajanugen Logeswaran and Honglak Lee},
-  booktitle={International Conference on Learning Representations},
-  year={2018},
-  url={https://openreview.net/forum?id=rJvJXZb0W},
-}
-```
-
-Contact: [llajan@umich.edu](mailto:llajan@umich.edu)
