@@ -21,10 +21,6 @@ Examples are taken from The Stanford Natural Language Inference (SNLI) Corpus (h
 
 We want to build a Generic Sentence Encoder model for the Turkish. However, there are not any NLI datasets in the Turkish language due to the high cost of crowdsourcing. We want to leverage the new Amazon Translate Service to translate the NLI datasets available in the English language into the Turkish language as a cost effective solution and publish the translated datasets publicly to boost Turkish NLP works. 
 
-:hatching_chick: (2019-01-26) Our research has been granted [AWS Research Credits](https://twitter.com/ebudur/status/1090301816183685120)   to translate the most commong NLI datasets into Turkish and evaluate our resulting NLI models.
-
-:dart: (2019-03-31) We have applied for the AWS Research Credits again to translate all available NLI and Textual Entailment datasets into Turkish.
-
 # Experimentations
 
 # Experiment #1
@@ -47,13 +43,23 @@ model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                   
 model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | Spearman  | 0.7348411904626335
 model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                    | Model1   | MSE       | 0.40369925427270614
 model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | MSE       | 0.3561044127205771
-model1_task2    | Turkish       | SNLI           |  Lowercase                    | Model1   | Accuracy  | 62.41%
-model2_task2    | Turkish       | SNLI           |  Lowercase + sentencepiece    | Model2   | Accuracy  | 64.38%
+model1_task2    | Turkish       | SNLI-MT-TR     |  Lowercase                    | Model1   | Accuracy  | 62.41%
+model2_task2    | Turkish       | SNLI-MT-TR     |  Lowercase + sentencepiece    | Model2   | Accuracy  | 64.38%
 
 The results of the models on the MultiNLI and XNLI datasets were not included in the table since they need some more analysis.
 
+# Announcements
+
+:hatching_chick: (2018-10-26) Our research has been awarded free GPU resource by [TRUBA](https://www.truba.gov.tr)  which is the Turkish Science e-Infrastructure that is provided by The Scientific and Technological Research Council of Turkey ([TUBITAK](https://www.tubitak.gov.tr/en)).
+
+:hatching_chick: (2019-01-26) Our research has been granted [AWS Research Credits](https://twitter.com/ebudur/status/1090301816183685120)   to translate the most commong NLI datasets into Turkish and evaluate our resulting NLI models.
+
+:dart: (2019-03-31) We have applied for the AWS Research Credits again to translate all available NLI and Textual Entailment datasets into Turkish.
+
 - - - -
-This repository is based on the implementation of the following paper in [this](https://github.com/lajanugen/S2V) Github repository.
+
+# References
+This repository is based on the implementation of the following paper in [this](https://github.com/lajanugen/S2V) Github repository which belongs to the following paper.
 
 Lajanugen Logeswaran, Honglak Lee, 
 [An efficient framework for learning sentence representations](https://arxiv.org/pdf/1803.02893.pdf). In ICLR, 2018.
