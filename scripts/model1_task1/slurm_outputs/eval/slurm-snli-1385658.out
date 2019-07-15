@@ -1,0 +1,336 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+model_config <configuration._HParams object at 0x2b6ab4d3a490>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/UMBC/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/UMBC/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/UMBC/train/model.ckpt-334973
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/eng/snli_1.0/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 92s - loss: 0.8171 - acc: 0.6458 - val_loss: 0.7460 - val_acc: 0.6797
+Training accuracy:64.58378461022274 Validation accuracy:67.9739890302543
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7516 - acc: 0.6756 - val_loss: 0.7288 - val_acc: 0.6872
+Training accuracy:67.557570804108 Validation accuracy:68.71570819302609
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7389 - acc: 0.6823 - val_loss: 0.7219 - val_acc: 0.6879
+Training accuracy:68.23380363227795 Validation accuracy:68.78683194836037
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7323 - acc: 0.6853 - val_loss: 0.7181 - val_acc: 0.6895
+Training accuracy:68.53269308140759 Validation accuracy:68.94940053198158
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7282 - acc: 0.6873 - val_loss: 0.7156 - val_acc: 0.6906
+Training accuracy:68.72982905769803 Validation accuracy:69.06116642716502
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 75s - loss: 0.7252 - acc: 0.6890 - val_loss: 0.7137 - val_acc: 0.6921
+Training accuracy:68.90148115911657 Validation accuracy:69.21357447430991
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7229 - acc: 0.6901 - val_loss: 0.7123 - val_acc: 0.6926
+Training accuracy:69.00924154516088 Validation accuracy:69.26437715669154
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7210 - acc: 0.6909 - val_loss: 0.7111 - val_acc: 0.6934
+Training accuracy:69.09388441595581 Validation accuracy:69.33550091202582
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 85s - loss: 0.7195 - acc: 0.6917 - val_loss: 0.7101 - val_acc: 0.6949
+Training accuracy:69.16960793067956 Validation accuracy:69.48790895917071
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7182 - acc: 0.6924 - val_loss: 0.7092 - val_acc: 0.6952
+Training accuracy:69.24260103001025 Validation accuracy:69.51839056859968
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7170 - acc: 0.6930 - val_loss: 0.7084 - val_acc: 0.6949
+Training accuracy:69.29848352750282 Validation accuracy:69.48790895917071
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 80s - loss: 0.7160 - acc: 0.6935 - val_loss: 0.7077 - val_acc: 0.6957
+Training accuracy:69.35090749909195 Validation accuracy:69.56919325098131
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7151 - acc: 0.6940 - val_loss: 0.7071 - val_acc: 0.6966
+Training accuracy:69.40442363675584 Validation accuracy:69.66063807926825
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 87s - loss: 0.7143 - acc: 0.6945 - val_loss: 0.7065 - val_acc: 0.6961
+Training accuracy:69.45357111007723 Validation accuracy:69.60983539688662
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 76s - loss: 0.7136 - acc: 0.6948 - val_loss: 0.7060 - val_acc: 0.6960
+Training accuracy:69.48305959409612 Validation accuracy:69.5996748604103
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 83s - loss: 0.7129 - acc: 0.6952 - val_loss: 0.7055 - val_acc: 0.6956
+Training accuracy:69.51582457633931 Validation accuracy:69.559032714505
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 70s - loss: 0.7123 - acc: 0.6956 - val_loss: 0.7050 - val_acc: 0.6960
+Training accuracy:69.5560526934268 Validation accuracy:69.5996748604103
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.7117 - acc: 0.6959 - val_loss: 0.7046 - val_acc: 0.6966
+Training accuracy:69.59209417389432 Validation accuracy:69.66063807926825
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 70s - loss: 0.7111 - acc: 0.6962 - val_loss: 0.7042 - val_acc: 0.6969
+Training accuracy:69.61885224272628 Validation accuracy:69.69111968869723
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 76s - loss: 0.7106 - acc: 0.6964 - val_loss: 0.7038 - val_acc: 0.6967
+Training accuracy:69.6392393427887 Validation accuracy:69.67079861574457
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.7101 - acc: 0.6966 - val_loss: 0.7034 - val_acc: 0.6967
+Training accuracy:69.66326699643372 Validation accuracy:69.67079861574457
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.7097 - acc: 0.6968 - val_loss: 0.7030 - val_acc: 0.6971
+Training accuracy:69.68401815185442 Validation accuracy:69.71144076164988
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 79s - loss: 0.7092 - acc: 0.6971 - val_loss: 0.7027 - val_acc: 0.6986
+Training accuracy:69.70677161174552 Validation accuracy:69.86384880879477
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.7088 - acc: 0.6973 - val_loss: 0.7024 - val_acc: 0.6987
+Training accuracy:69.72697668412883 Validation accuracy:69.87400934527109
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 81s - loss: 0.7084 - acc: 0.6974 - val_loss: 0.7021 - val_acc: 0.6985
+Training accuracy:69.7431771475279 Validation accuracy:69.85368827231845
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 70s - loss: 0.7080 - acc: 0.6977 - val_loss: 0.7018 - val_acc: 0.6985
+Training accuracy:69.7664766904564 Validation accuracy:69.85368827231845
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 79s - loss: 0.7077 - acc: 0.6979 - val_loss: 0.7015 - val_acc: 0.6988
+Training accuracy:69.788502039631 Validation accuracy:69.88416988174743
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.7073 - acc: 0.6981 - val_loss: 0.7012 - val_acc: 0.6986
+Training accuracy:69.80524858611086 Validation accuracy:69.86384880879477
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.7070 - acc: 0.6981 - val_loss: 0.7009 - val_acc: 0.6985
+Training accuracy:69.81489605310468 Validation accuracy:69.85368827231845
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 90s - loss: 0.7067 - acc: 0.6984 - val_loss: 0.7006 - val_acc: 0.6986
+Training accuracy:69.83673937460016 Validation accuracy:69.86384880879477
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 83s - loss: 0.7064 - acc: 0.6985 - val_loss: 0.7004 - val_acc: 0.6993
+Training accuracy:69.85293983804262 Validation accuracy:69.93497256412905
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 82s - loss: 0.7061 - acc: 0.6987 - val_loss: 0.7001 - val_acc: 0.6992
+Training accuracy:69.86568177558165 Validation accuracy:69.92481202765273
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 90s - loss: 0.7058 - acc: 0.6988 - val_loss: 0.6999 - val_acc: 0.6991
+Training accuracy:69.87551127025459 Validation accuracy:69.9146514911764
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 88s - loss: 0.7055 - acc: 0.6989 - val_loss: 0.6997 - val_acc: 0.6993
+Training accuracy:69.89116565065969 Validation accuracy:69.93497256412905
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 85s - loss: 0.7053 - acc: 0.6991 - val_loss: 0.6995 - val_acc: 0.6992
+Training accuracy:69.90536380963174 Validation accuracy:69.92481202765273
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 71s - loss: 0.7050 - acc: 0.6992 - val_loss: 0.6992 - val_acc: 0.7002
+Training accuracy:69.91883385788728 Validation accuracy:70.01625685593966
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.7048 - acc: 0.6993 - val_loss: 0.6990 - val_acc: 0.6999
+Training accuracy:69.9315757954263 Validation accuracy:69.98577524651068
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 90s - loss: 0.7045 - acc: 0.6995 - val_loss: 0.6988 - val_acc: 0.7003
+Training accuracy:69.94832234190615 Validation accuracy:70.02641739241598
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 74s - loss: 0.7043 - acc: 0.6996 - val_loss: 0.6986 - val_acc: 0.7005
+Training accuracy:69.96434077766949 Validation accuracy:70.04673846536863
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 91s - loss: 0.7041 - acc: 0.6998 - val_loss: 0.6984 - val_acc: 0.7006
+Training accuracy:69.97599054909035 Validation accuracy:70.05689900184497
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 91s - loss: 0.7039 - acc: 0.6998 - val_loss: 0.6982 - val_acc: 0.7007
+Training accuracy:69.98418179465115 Validation accuracy:70.06705953832129
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 91s - loss: 0.7037 - acc: 0.6999 - val_loss: 0.6981 - val_acc: 0.7006
+Training accuracy:69.99364723396585 Validation accuracy:70.05689900184497
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 91s - loss: 0.7035 - acc: 0.7001 - val_loss: 0.6979 - val_acc: 0.7010
+Training accuracy:70.00766336525878 Validation accuracy:70.09754114775026
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 91s - loss: 0.7033 - acc: 0.7002 - val_loss: 0.6977 - val_acc: 0.7013
+Training accuracy:70.01512650010307 Validation accuracy:70.12802275717924
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 93s - loss: 0.7031 - acc: 0.7002 - val_loss: 0.6975 - val_acc: 0.7015
+Training accuracy:70.02186152423083 Validation accuracy:70.14834383013189
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 98s - loss: 0.7029 - acc: 0.7003 - val_loss: 0.6974 - val_acc: 0.7015
+Training accuracy:70.03387535105333 Validation accuracy:70.14834383013189
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 100s - loss: 0.7027 - acc: 0.7004 - val_loss: 0.6972 - val_acc: 0.7016
+Training accuracy:70.04279470733066 Validation accuracy:70.15850436660823
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 97s - loss: 0.7025 - acc: 0.7005 - val_loss: 0.6970 - val_acc: 0.7015
+Training accuracy:70.0500758144958 Validation accuracy:70.14834383013189
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 97s - loss: 0.7023 - acc: 0.7006 - val_loss: 0.6969 - val_acc: 0.7017
+Training accuracy:70.05935922613138 Validation accuracy:70.16866490308456
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 95s - loss: 0.7022 - acc: 0.7007 - val_loss: 0.6967 - val_acc: 0.7020
+Training accuracy:70.06846061008783 Validation accuracy:70.19914651251354
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 83s - loss: 0.7020 - acc: 0.7008 - val_loss: 0.6966 - val_acc: 0.7021
+Training accuracy:70.07610577261124 Validation accuracy:70.20930704898986
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 93s - loss: 0.7018 - acc: 0.7009 - val_loss: 0.6964 - val_acc: 0.7019
+Training accuracy:70.0872094610381 Validation accuracy:70.1889859760372
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 80s - loss: 0.7017 - acc: 0.7009 - val_loss: 0.6963 - val_acc: 0.7023
+Training accuracy:70.09449056820326 Validation accuracy:70.22962812194251
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 91s - loss: 0.7015 - acc: 0.7010 - val_loss: 0.6962 - val_acc: 0.7023
+Training accuracy:70.10195370304754 Validation accuracy:70.22962812194251
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 70s - loss: 0.7014 - acc: 0.7012 - val_loss: 0.6960 - val_acc: 0.7024
+Training accuracy:70.11633388969872 Validation accuracy:70.23978865841883
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 70s - loss: 0.7012 - acc: 0.7013 - val_loss: 0.6959 - val_acc: 0.7025
+Training accuracy:70.12670946740907 Validation accuracy:70.24994919489515
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 100s - loss: 0.7011 - acc: 0.7014 - val_loss: 0.6958 - val_acc: 0.7028
+Training accuracy:70.13872329423158 Validation accuracy:70.28043080432414
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 100s - loss: 0.7009 - acc: 0.7014 - val_loss: 0.6956 - val_acc: 0.7030
+Training accuracy:70.14145370941851 Validation accuracy:70.3007518772768
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 100s - loss: 0.7008 - acc: 0.7015 - val_loss: 0.6955 - val_acc: 0.7032
+Training accuracy:70.14818873354628 Validation accuracy:70.32107295022944
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 98s - loss: 0.7007 - acc: 0.7016 - val_loss: 0.6954 - val_acc: 0.7034
+Training accuracy:70.15601592374881 Validation accuracy:70.34139402318209
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 98s - loss: 0.7005 - acc: 0.7017 - val_loss: 0.6953 - val_acc: 0.7035
+Training accuracy:70.16511730770526 Validation accuracy:70.35155455965841
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 98s - loss: 0.7004 - acc: 0.7017 - val_loss: 0.6951 - val_acc: 0.7035
+Training accuracy:70.17003205504174 Validation accuracy:70.35155455965841
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 95s - loss: 0.7003 - acc: 0.7018 - val_loss: 0.6950 - val_acc: 0.7035
+Training accuracy:70.1798615497147 Validation accuracy:70.35155455965841
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 95s - loss: 0.7002 - acc: 0.7018 - val_loss: 0.6949 - val_acc: 0.7038
+Training accuracy:70.18259196490165 Validation accuracy:70.38203616908739
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 93s - loss: 0.7000 - acc: 0.7019 - val_loss: 0.6948 - val_acc: 0.7040
+Training accuracy:70.1911472658207 Validation accuracy:70.40235724204005
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 90s - loss: 0.6999 - acc: 0.7019 - val_loss: 0.6947 - val_acc: 0.7040
+Training accuracy:70.19314957029111 Validation accuracy:70.40235724204005
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 76s - loss: 0.6998 - acc: 0.7020 - val_loss: 0.6946 - val_acc: 0.7045
+Training accuracy:70.1993385113815 Validation accuracy:70.45315992442168
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 91s - loss: 0.6997 - acc: 0.7020 - val_loss: 0.6945 - val_acc: 0.7044
+Training accuracy:70.20243298192669 Validation accuracy:70.44299938794535
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 67s - loss: 0.6996 - acc: 0.7021 - val_loss: 0.6944 - val_acc: 0.7044
+Training accuracy:70.20953206141272 Validation accuracy:70.44299938794535
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 93s - loss: 0.6995 - acc: 0.7022 - val_loss: 0.6943 - val_acc: 0.7046
+Training accuracy:70.21608505786135 Validation accuracy:70.463320460898
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 93s - loss: 0.6994 - acc: 0.7022 - val_loss: 0.6942 - val_acc: 0.7044
+Training accuracy:70.21899750072743 Validation accuracy:70.44299938794535
+Train on 549367 samples, validate on 9842 samples
+Epoch 1/1
+ - 89s - loss: 0.6993 - acc: 0.7022 - val_loss: 0.6941 - val_acc: 0.7044
+
+  32/9842 [..............................] - ETA: 50s
+ 736/9842 [=>............................] - ETA: 2s 
+1472/9842 [===>..........................] - ETA: 1s
+2208/9842 [=====>........................] - ETA: 1s
+2944/9842 [=======>......................] - ETA: 0s
+3680/9842 [==========>...................] - ETA: 0s
+4416/9842 [============>.................] - ETA: 0s
+5152/9842 [==============>...............] - ETA: 0s
+5888/9842 [================>.............] - ETA: 0s
+6624/9842 [===================>..........] - ETA: 0s
+7360/9842 [=====================>........] - ETA: 0s
+8096/9842 [=======================>......] - ETA: 0s
+8832/9842 [=========================>....] - ETA: 0s
+9568/9842 [============================>.] - ETA: 0s
+9842/9842 [==============================] - 1s 87us/step
+Dev Accuracy: 70.44299938794535
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+
+  32/9824 [..............................] - ETA: 0s
+1408/9824 [===>..........................] - ETA: 0s
+2848/9824 [=======>......................] - ETA: 0s
+4288/9824 [============>.................] - ETA: 0s
+5312/9824 [===============>..............] - ETA: 0s
+6176/9824 [=================>............] - ETA: 0s
+7008/9824 [====================>.........] - ETA: 0s
+7808/9824 [======================>.......] - ETA: 0s
+8576/9824 [=========================>....] - ETA: 0s
+9376/9824 [===========================>..] - ETA: 0s
+9824/9824 [==============================] - 0s 50us/step
+acc: 71.32%

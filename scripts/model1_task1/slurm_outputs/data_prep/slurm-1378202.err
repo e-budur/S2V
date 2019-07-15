@@ -1,0 +1,1471 @@
+INFO:tensorflow:Found 408 input files.
+INFO:tensorflow:Creating vocabulary.
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_69.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_16.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_33.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_18.txt
+INFO:tensorflow:Processed 1000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_37.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_4.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_71.txt
+INFO:tensorflow:Processed 2000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_7.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_8.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_21.txt
+INFO:tensorflow:Processed 3000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_73.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_41.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_56.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_97.txt
+INFO:tensorflow:Processed 4000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_3.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_8.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_25.txt
+INFO:tensorflow:Processed 5000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_41.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_12.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_66.txt
+INFO:tensorflow:Processed 6000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_31.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_66.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_49.txt
+INFO:tensorflow:Processed 7000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_28.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_4.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_44.txt
+INFO:tensorflow:Processed 8000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_50.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_16.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_68.txt
+INFO:tensorflow:Processed 9000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_53.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_46.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_53.txt
+INFO:tensorflow:Processed 10000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_10.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_40.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_31.txt
+INFO:tensorflow:Processed 11000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_37.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_32.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_46.txt
+INFO:tensorflow:Processed 12000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_10.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_58.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_36.txt
+INFO:tensorflow:Processed 13000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_50.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_63.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_45.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_13.txt
+INFO:tensorflow:Processed 14000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_6.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_90.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_61.txt
+INFO:tensorflow:Processed 15000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_73.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_14.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_82.txt
+INFO:tensorflow:Processed 16000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_55.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_71.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_107.txt
+INFO:tensorflow:Processed 17000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_20.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_42.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_65.txt
+INFO:tensorflow:Processed 18000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_65.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_72.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_13.txt
+INFO:tensorflow:Processed 19000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_33.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_30.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_17.txt
+INFO:tensorflow:Processed 20000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_71.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_90.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_47.txt
+INFO:tensorflow:Processed 21000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_28.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_32.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_50.txt
+INFO:tensorflow:Processed 22000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_47.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_126.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_125.txt
+INFO:tensorflow:Processed 23000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_5.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_36.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_75.txt
+INFO:tensorflow:Processed 24000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_61.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_65.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_22.txt
+INFO:tensorflow:Processed 25000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_93.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_87.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_111.txt
+INFO:tensorflow:Processed 26000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_24.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_25.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_52.txt
+INFO:tensorflow:Processed 27000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_59.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_76.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_98.txt
+INFO:tensorflow:Processed 28000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_21.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_22.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_7.txt
+INFO:tensorflow:Processed 29000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_13.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_55.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_48.txt
+INFO:tensorflow:Processed 30000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_87.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_17.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_82.txt
+INFO:tensorflow:Processed 31000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_43.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_16.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_57.txt
+INFO:tensorflow:Processed 32000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_72.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_0.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_93.txt
+INFO:tensorflow:Processed 33000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_9.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_57.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_57.txt
+INFO:tensorflow:Processed 34000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_35.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_109.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_27.txt
+INFO:tensorflow:Processed 35000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_72.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_43.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_42.txt
+INFO:tensorflow:Processed 36000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_51.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_77.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_19.txt
+INFO:tensorflow:Processed 37000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_63.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_58.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_23.txt
+INFO:tensorflow:Processed 38000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_121.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_113.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_78.txt
+INFO:tensorflow:Processed 39000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_7.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_19.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_79.txt
+INFO:tensorflow:Processed 40000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_14.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_64.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_48.txt
+INFO:tensorflow:Processed 41000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_14.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_14.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_39.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_9.txt
+INFO:tensorflow:Processed 42000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_60.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_35.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_54.txt
+INFO:tensorflow:Processed 43000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_124.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_54.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_62.txt
+INFO:tensorflow:Processed 44000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_2.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_3.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_26.txt
+INFO:tensorflow:Processed 45000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_15.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_12.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_19.txt
+INFO:tensorflow:Processed 46000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_65.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_120.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_66.txt
+INFO:tensorflow:Processed 47000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_20.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_54.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_55.txt
+INFO:tensorflow:Processed 48000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_40.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_38.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_9.txt
+INFO:tensorflow:Processed 49000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_33.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_23.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_1.txt
+INFO:tensorflow:Processed 50000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_108.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_39.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_103.txt
+INFO:tensorflow:Processed 51000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_62.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_110.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_129.txt
+INFO:tensorflow:Processed 52000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_85.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_11.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_18.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_81.txt
+INFO:tensorflow:Processed 53000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_7.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_25.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_0.txt
+INFO:tensorflow:Processed 54000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_60.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_22.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_17.txt
+INFO:tensorflow:Processed 55000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_85.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_15.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_6.txt
+INFO:tensorflow:Processed 56000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_24.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_96.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_74.txt
+INFO:tensorflow:Processed 57000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_16.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_64.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_39.txt
+INFO:tensorflow:Processed 58000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_79.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_27.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_71.txt
+INFO:tensorflow:Processed 59000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_10.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_69.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_102.txt
+INFO:tensorflow:Processed 60000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_17.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_3.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_25.txt
+INFO:tensorflow:Processed 61000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_12.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_67.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_86.txt
+INFO:tensorflow:Processed 62000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_62.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_21.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_83.txt
+INFO:tensorflow:Processed 63000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_38.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_81.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_16.txt
+INFO:tensorflow:Processed 64000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_94.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_0.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_2.txt
+INFO:tensorflow:Processed 65000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_28.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_43.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_8.txt
+INFO:tensorflow:Processed 66000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_18.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_75.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_20.txt
+INFO:tensorflow:Processed 67000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_95.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_18.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_58.txt
+INFO:tensorflow:Processed 68000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_83.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_122.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_53.txt
+INFO:tensorflow:Processed 69000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_37.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_39.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_89.txt
+INFO:tensorflow:Processed 70000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_96.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_5.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_104.txt
+INFO:tensorflow:Processed 71000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_70.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_10.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_1.txt
+INFO:tensorflow:Processed 72000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_15.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_34.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_88.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_45.txt
+INFO:tensorflow:Processed 73000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_13.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_69.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_15.txt
+INFO:tensorflow:Processed 74000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_83.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_68.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_73.txt
+INFO:tensorflow:Processed 75000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_43.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_68.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_114.txt
+INFO:tensorflow:Processed 76000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_82.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_24.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_35.txt
+INFO:tensorflow:Processed 77000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_11.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_54.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_4.txt
+INFO:tensorflow:Processed 78000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_29.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_59.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_19.txt
+INFO:tensorflow:Processed 79000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_1.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_49.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_56.txt
+INFO:tensorflow:Processed 80000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_66.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_32.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_128.txt
+INFO:tensorflow:Processed 81000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_42.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_74.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_84.txt
+INFO:tensorflow:Processed 82000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_70.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_26.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_30.txt
+INFO:tensorflow:Processed 83000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_74.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_89.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_38.txt
+INFO:tensorflow:Processed 84000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_1.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_49.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_69.txt
+INFO:tensorflow:Processed 85000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_20.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_3.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_2.txt
+INFO:tensorflow:Processed 86000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_29.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_79.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_64.txt
+INFO:tensorflow:Processed 87000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_35.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_9.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_78.txt
+INFO:tensorflow:Processed 88000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_22.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_36.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_33.txt
+INFO:tensorflow:Processed 89000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_101.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_119.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_70.txt
+INFO:tensorflow:Processed 90000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_64.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_21.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_2.txt
+INFO:tensorflow:Processed 91000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_40.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_99.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_61.txt
+INFO:tensorflow:Processed 92000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_52.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_131.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_37.txt
+INFO:tensorflow:Processed 93000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_61.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_52.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_51.txt
+INFO:tensorflow:Processed 94000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_112.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_3.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_41.txt
+INFO:tensorflow:Processed 95000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_8.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_62.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_60.txt
+INFO:tensorflow:Processed 96000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_57.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_84.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_34.txt
+INFO:tensorflow:Processed 97000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_27.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_56.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_80.txt
+INFO:tensorflow:Processed 98000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_48.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_118.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_45.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_44.txt
+INFO:tensorflow:Processed 99000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_77.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_77.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_47.txt
+INFO:tensorflow:Processed 100000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_80.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_10.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_88.txt
+INFO:tensorflow:Processed 101000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_91.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_73.txt
+INFO:tensorflow:Processed 102000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_5.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_15.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_17.txt
+INFO:tensorflow:Processed 103000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_6.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_123.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_46.txt
+INFO:tensorflow:Processed 104000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_27.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_115.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_0.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_4.txt
+INFO:tensorflow:Processed 105000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_105.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_51.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_56.txt
+INFO:tensorflow:Processed 106000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_127.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_80.txt
+INFO:tensorflow:Processed 107000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_2.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_26.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_34.txt
+INFO:tensorflow:Processed 108000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_38.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_11.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_48.txt
+INFO:tensorflow:Processed 109000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_12.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_130.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_11.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_50.txt
+INFO:tensorflow:Processed 110000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_86.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_9.txt
+INFO:tensorflow:Processed 111000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_63.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_67.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_11.txt
+INFO:tensorflow:Processed 112000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_28.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_5.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_60.txt
+INFO:tensorflow:Processed 113000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_116.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_63.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_81.txt
+INFO:tensorflow:Processed 114000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_72.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_68.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_13.txt
+INFO:tensorflow:Processed 115000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_1.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_36.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_44.txt
+INFO:tensorflow:Processed 116000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_95.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_31.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_29.txt
+INFO:tensorflow:Processed 117000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_74.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_24.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_47.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_41.txt
+INFO:tensorflow:Processed 118000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_26.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_6.txt
+INFO:tensorflow:Processed 119000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_7.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_0.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_42.txt
+INFO:tensorflow:Processed 120000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_51.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_49.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_29.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_34.txt
+INFO:tensorflow:Processed 121000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_23.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_70.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_76.txt
+INFO:tensorflow:Processed 122000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_18.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_32.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_23.txt
+INFO:tensorflow:Processed 123000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_19.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_45.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_40.txt
+INFO:tensorflow:Processed 124000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_58.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_46.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_75.txt
+INFO:tensorflow:Processed 125000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_30.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_44.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_14.txt
+INFO:tensorflow:Processed 126000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_91.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_55.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_5.txt
+INFO:tensorflow:Processed 127000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_6.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_59.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_12.txt
+INFO:tensorflow:Processed 128000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_78.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_100.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_30.txt
+INFO:tensorflow:Processed 129000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_92.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_94.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_117.txt
+INFO:tensorflow:Processed 130000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_67.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_53.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_92.txt
+INFO:tensorflow:Processed 131000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_106.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_67.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_76.txt
+INFO:tensorflow:Processed 132000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_8.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_52.txt
+INFO:tensorflow:Processed 133000000 sentences
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_31.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_4.txt
+INFO:tensorflow:Processing file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_59.txt
+INFO:tensorflow:Processed 134000000 sentences
+INFO:tensorflow:Processed 134039387 sentences total
+INFO:tensorflow:Created vocab with 100000 words
+INFO:tensorflow:Wrote vocab file to /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/vocab.txt
+INFO:tensorflow:Wrote word counts file to /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/word_counts.txt
+INFO:tensorflow:Generating dataset.
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_69.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_69.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_16.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_16.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_33.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_33.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_18.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_18.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_37.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_37.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_4.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_4.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_71.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_71.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_7.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_7.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_8.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_8.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_21.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_21.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_73.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_73.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_41.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_41.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_56.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_56.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_97.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_97.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_3.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_3.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_8.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_8.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_25.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_25.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_41.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_41.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_12.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_12.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_66.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_66.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_31.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_31.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_66.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_66.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_49.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_49.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_28.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_28.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_4.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_4.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_44.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_44.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_50.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_50.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_16.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_16.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_68.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_68.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_53.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_53.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_46.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_46.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_53.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_53.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_10.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_10.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_40.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_40.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_31.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_31.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_37.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_37.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_32.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_32.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_46.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_46.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_10.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_10.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_58.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_58.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_36.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_36.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_50.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_50.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_63.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_63.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_45.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_45.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_13.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_13.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_6.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_6.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_90.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_90.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_61.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_61.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_73.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_73.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_14.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_14.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_82.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_82.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_55.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_55.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_71.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_71.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_107.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_107.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_20.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_20.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_42.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_42.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_65.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_65.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_65.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_65.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_72.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_72.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_13.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_13.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_33.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_33.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_30.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_30.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_17.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_17.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_71.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_71.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_90.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_90.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_47.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_47.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_28.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_28.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_32.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_32.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_50.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_50.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_47.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_47.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_126.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_126.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_125.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_125.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_5.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_5.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_36.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_36.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_75.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_75.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_61.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_61.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_65.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_65.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_22.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_22.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_93.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_93.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_87.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_87.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_111.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_111.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_24.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_24.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_25.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_25.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_52.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_52.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_59.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_59.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_76.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_76.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_98.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_98.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_21.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_21.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_22.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_22.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_7.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_7.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_13.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_13.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_55.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_55.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_48.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_48.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_87.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_87.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_17.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_17.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_82.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_82.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_43.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_43.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_16.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_16.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_57.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_57.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_72.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_72.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_0.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_0.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_93.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_93.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_9.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_9.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_57.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_57.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_57.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_57.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_35.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_35.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_109.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_109.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_27.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_27.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_72.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_72.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_43.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_43.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_42.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_42.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_51.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_51.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_77.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_77.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_19.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_19.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_63.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_63.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_58.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_58.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_23.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_23.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_121.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_121.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_113.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_113.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_78.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_78.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_7.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_7.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_19.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_19.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_79.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_79.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_14.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_14.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_64.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_64.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_48.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_48.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_14.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_14.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_14.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_14.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_39.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_39.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_9.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_9.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_60.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_60.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_35.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_35.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_54.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_54.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_124.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_124.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_54.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_54.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_62.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_62.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_2.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_2.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_3.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_3.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_26.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_26.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_15.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_15.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_12.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_12.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_19.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_19.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_65.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_65.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_120.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_120.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_66.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_66.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_20.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_20.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_54.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_54.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_55.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_55.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_40.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_40.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_38.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_38.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_9.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_9.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_33.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_33.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_23.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_23.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_1.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_1.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_108.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_108.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_39.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_39.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_103.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_103.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_62.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_62.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_110.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_110.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_129.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_129.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_85.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_85.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_11.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_11.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_18.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_18.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_81.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_81.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_7.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_7.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_25.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_25.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_0.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_0.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_60.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_60.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_22.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_22.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_17.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_17.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_85.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_85.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_15.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_15.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_6.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_6.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_24.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_24.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_96.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_96.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_74.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_74.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_16.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_16.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_64.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_64.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_39.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_39.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_79.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_79.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_27.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_27.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_71.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_71.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_10.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_10.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_69.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_69.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_102.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_102.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_17.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_17.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_3.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_3.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_25.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_25.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_12.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_12.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_67.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_67.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_86.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_86.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_62.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_62.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_21.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_21.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_83.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_83.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_38.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_38.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_81.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_81.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_16.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_16.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_94.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_94.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_0.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_0.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_2.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_2.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_28.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_28.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_43.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_43.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_8.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_8.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_18.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_18.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_75.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_75.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_20.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_20.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_95.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_95.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_18.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_18.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_58.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_58.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_83.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_83.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_122.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_122.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_53.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_53.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_37.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_37.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_39.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_39.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_89.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_89.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_96.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_96.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_5.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_5.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_104.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_104.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_70.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_70.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_10.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_10.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_1.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_1.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_15.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_15.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_34.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_34.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_88.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_88.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_45.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_45.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_13.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_13.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_69.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_69.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_15.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_15.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_83.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_83.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_68.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_68.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_73.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_73.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_43.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_43.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_68.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_68.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_114.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_114.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_82.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_82.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_24.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_24.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_35.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_35.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_11.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_11.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_54.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_54.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_4.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_4.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_29.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_29.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_59.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_59.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_19.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_19.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_1.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_1.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_49.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_49.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_56.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_56.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_66.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_66.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_32.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_32.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_128.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_128.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_42.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_42.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_74.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_74.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_84.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_84.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_70.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_70.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_26.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_26.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_30.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_30.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_74.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_74.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_89.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_89.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_38.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_38.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_1.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_1.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_49.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_49.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_69.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_69.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_20.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_20.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_3.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_3.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_2.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_2.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_29.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_29.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_79.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_79.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_64.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_64.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_35.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_35.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_9.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_9.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_78.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_78.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_22.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_22.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_36.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_36.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_33.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_33.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_101.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_101.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_119.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_119.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_70.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_70.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_64.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_64.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_21.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_21.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_2.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_2.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_40.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_40.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_99.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_99.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_61.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_61.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_52.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_52.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_131.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_131.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_37.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_37.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_61.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_61.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_52.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_52.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_51.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_51.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_112.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_112.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_3.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_3.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_41.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_41.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_8.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_8.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_62.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_62.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_60.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_60.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_57.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_57.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_84.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_84.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_34.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_34.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_27.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_27.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_56.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_56.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_80.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_80.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_48.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_48.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_118.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_118.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_45.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_45.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_44.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_44.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_77.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_77.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_77.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_77.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_47.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_47.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_80.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_80.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_10.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_10.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_88.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_88.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_91.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_91.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_73.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_73.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_5.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_5.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_15.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_15.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_17.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_17.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_6.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_6.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_123.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_123.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_46.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_46.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_27.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_27.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_115.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_115.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_0.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_0.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_4.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_4.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_105.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_105.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_51.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_51.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_56.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_56.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_127.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_127.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_80.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_80.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_2.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_2.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_26.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_26.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_34.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_34.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_38.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_38.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_11.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_11.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_48.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_48.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_12.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_12.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_130.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_130.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_11.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_11.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_50.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_50.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_86.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_86.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_9.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_9.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_63.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_63.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_67.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_67.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_11.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_11.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_28.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_28.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_5.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_5.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_60.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_60.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_116.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_116.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_63.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_63.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_81.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_81.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_72.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_72.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_68.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_68.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_13.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_13.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_1.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_1.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_36.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_36.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_44.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_44.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_95.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_95.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_31.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_31.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_29.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_29.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_74.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_74.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_24.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_24.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_47.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_47.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_41.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_41.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_26.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_26.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_6.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_6.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_7.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_7.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_0.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_0.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_42.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_42.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_51.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_51.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_49.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_49.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_29.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_29.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_34.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_34.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_23.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_23.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_70.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_70.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_76.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_76.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_18.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_18.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_32.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_32.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_23.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_23.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_19.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_19.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_45.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_45.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_40.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_40.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_58.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_58.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_46.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_46.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_75.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_75.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_30.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_30.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_44.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_44.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_14.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_14.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_91.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_91.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_55.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_55.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_5.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_5.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_6.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_6.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_59.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_59.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_12.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/weather.yahoo_bbk.ac.pages_12.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_78.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_78.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_100.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_100.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_30.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_30.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_92.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_92.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_94.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_94.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_117.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_117.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_67.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_67.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_53.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_53.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_92.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/utexas_iit.pages_92.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_106.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_106.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_67.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_67.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_76.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_76.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_8.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_8.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_52.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_52.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_31.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/delorme.com_shu.pages_31.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_4.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/mbta.com_mtu.pages_4.txt
+INFO:tensorflow:Processing input file: /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_59.txt
+INFO:tensorflow:Completed processing file /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC/txt_tokenized/ucdavis_wnba.pages_59.txt
+INFO:tensorflow:Generated dataset with 134039387 sentences.
+INFO:tensorflow:Writing dataset train
+INFO:tensorflow:Wrote dataset indices [0, 1339893) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00000-of-00100
+INFO:tensorflow:Wrote dataset indices [1339893, 2679787) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00001-of-00100
+INFO:tensorflow:Wrote dataset indices [2679787, 4019681) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00002-of-00100
+INFO:tensorflow:Wrote dataset indices [4019681, 5359575) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00003-of-00100
+INFO:tensorflow:Wrote dataset indices [5359575, 6699469) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00004-of-00100
+INFO:tensorflow:Wrote dataset indices [6699469, 8039363) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00005-of-00100
+INFO:tensorflow:Wrote dataset indices [8039363, 9379257) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00006-of-00100
+INFO:tensorflow:Wrote dataset indices [9379257, 10719150) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00007-of-00100
+INFO:tensorflow:Wrote dataset indices [10719150, 12059044) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00008-of-00100
+INFO:tensorflow:Wrote dataset indices [12059044, 13398938) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00009-of-00100
+INFO:tensorflow:Wrote dataset indices [13398938, 14738832) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00010-of-00100
+INFO:tensorflow:Wrote dataset indices [14738832, 16078726) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00011-of-00100
+INFO:tensorflow:Wrote dataset indices [16078726, 17418620) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00012-of-00100
+INFO:tensorflow:Wrote dataset indices [17418620, 18758514) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00013-of-00100
+INFO:tensorflow:Wrote dataset indices [18758514, 20098408) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00014-of-00100
+INFO:tensorflow:Wrote dataset indices [20098408, 21438301) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00015-of-00100
+INFO:tensorflow:Wrote dataset indices [21438301, 22778195) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00016-of-00100
+INFO:tensorflow:Wrote dataset indices [22778195, 24118089) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00017-of-00100
+INFO:tensorflow:Wrote dataset indices [24118089, 25457983) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00018-of-00100
+INFO:tensorflow:Wrote dataset indices [25457983, 26797877) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00019-of-00100
+INFO:tensorflow:Wrote dataset indices [26797877, 28137771) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00020-of-00100
+INFO:tensorflow:Wrote dataset indices [28137771, 29477665) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00021-of-00100
+INFO:tensorflow:Wrote dataset indices [29477665, 30817559) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00022-of-00100
+INFO:tensorflow:Wrote dataset indices [30817559, 32157452) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00023-of-00100
+INFO:tensorflow:Wrote dataset indices [32157452, 33497346) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00024-of-00100
+INFO:tensorflow:Wrote dataset indices [33497346, 34837240) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00025-of-00100
+INFO:tensorflow:Wrote dataset indices [34837240, 36177134) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00026-of-00100
+INFO:tensorflow:Wrote dataset indices [36177134, 37517028) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00027-of-00100
+INFO:tensorflow:Wrote dataset indices [37517028, 38856922) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00028-of-00100
+INFO:tensorflow:Wrote dataset indices [38856922, 40196816) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00029-of-00100
+INFO:tensorflow:Wrote dataset indices [40196816, 41536709) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00030-of-00100
+INFO:tensorflow:Wrote dataset indices [41536709, 42876603) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00031-of-00100
+INFO:tensorflow:Wrote dataset indices [42876603, 44216497) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00032-of-00100
+INFO:tensorflow:Wrote dataset indices [44216497, 45556391) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00033-of-00100
+INFO:tensorflow:Wrote dataset indices [45556391, 46896285) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00034-of-00100
+INFO:tensorflow:Wrote dataset indices [46896285, 48236179) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00035-of-00100
+INFO:tensorflow:Wrote dataset indices [48236179, 49576073) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00036-of-00100
+INFO:tensorflow:Wrote dataset indices [49576073, 50915967) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00037-of-00100
+INFO:tensorflow:Wrote dataset indices [50915967, 52255860) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00038-of-00100
+INFO:tensorflow:Wrote dataset indices [52255860, 53595754) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00039-of-00100
+INFO:tensorflow:Wrote dataset indices [53595754, 54935648) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00040-of-00100
+INFO:tensorflow:Wrote dataset indices [54935648, 56275542) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00041-of-00100
+INFO:tensorflow:Wrote dataset indices [56275542, 57615436) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00042-of-00100
+INFO:tensorflow:Wrote dataset indices [57615436, 58955330) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00043-of-00100
+INFO:tensorflow:Wrote dataset indices [58955330, 60295224) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00044-of-00100
+INFO:tensorflow:Wrote dataset indices [60295224, 61635118) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00045-of-00100
+INFO:tensorflow:Wrote dataset indices [61635118, 62975011) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00046-of-00100
+INFO:tensorflow:Wrote dataset indices [62975011, 64314905) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00047-of-00100
+INFO:tensorflow:Wrote dataset indices [64314905, 65654799) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00048-of-00100
+INFO:tensorflow:Wrote dataset indices [65654799, 66994693) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00049-of-00100
+INFO:tensorflow:Wrote dataset indices [66994693, 68334587) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00050-of-00100
+INFO:tensorflow:Wrote dataset indices [68334587, 69674481) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00051-of-00100
+INFO:tensorflow:Wrote dataset indices [69674481, 71014375) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00052-of-00100
+INFO:tensorflow:Wrote dataset indices [71014375, 72354268) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00053-of-00100
+INFO:tensorflow:Wrote dataset indices [72354268, 73694162) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00054-of-00100
+INFO:tensorflow:Wrote dataset indices [73694162, 75034056) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00055-of-00100
+INFO:tensorflow:Wrote dataset indices [75034056, 76373950) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00056-of-00100
+INFO:tensorflow:Wrote dataset indices [76373950, 77713844) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00057-of-00100
+INFO:tensorflow:Wrote dataset indices [77713844, 79053738) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00058-of-00100
+INFO:tensorflow:Wrote dataset indices [79053738, 80393632) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00059-of-00100
+INFO:tensorflow:Wrote dataset indices [80393632, 81733526) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00060-of-00100
+INFO:tensorflow:Wrote dataset indices [81733526, 83073419) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00061-of-00100
+INFO:tensorflow:Wrote dataset indices [83073419, 84413313) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00062-of-00100
+INFO:tensorflow:Wrote dataset indices [84413313, 85753207) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00063-of-00100
+INFO:tensorflow:Wrote dataset indices [85753207, 87093101) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00064-of-00100
+INFO:tensorflow:Wrote dataset indices [87093101, 88432995) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00065-of-00100
+INFO:tensorflow:Wrote dataset indices [88432995, 89772889) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00066-of-00100
+INFO:tensorflow:Wrote dataset indices [89772889, 91112783) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00067-of-00100
+INFO:tensorflow:Wrote dataset indices [91112783, 92452677) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00068-of-00100
+INFO:tensorflow:Wrote dataset indices [92452677, 93792570) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00069-of-00100
+INFO:tensorflow:Wrote dataset indices [93792570, 95132464) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00070-of-00100
+INFO:tensorflow:Wrote dataset indices [95132464, 96472358) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00071-of-00100
+INFO:tensorflow:Wrote dataset indices [96472358, 97812252) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00072-of-00100
+INFO:tensorflow:Wrote dataset indices [97812252, 99152146) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00073-of-00100
+INFO:tensorflow:Wrote dataset indices [99152146, 100492040) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00074-of-00100
+INFO:tensorflow:Wrote dataset indices [100492040, 101831934) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00075-of-00100
+INFO:tensorflow:Wrote dataset indices [101831934, 103171827) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00076-of-00100
+INFO:tensorflow:Wrote dataset indices [103171827, 104511721) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00077-of-00100
+INFO:tensorflow:Wrote dataset indices [104511721, 105851615) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00078-of-00100
+INFO:tensorflow:Wrote dataset indices [105851615, 107191509) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00079-of-00100
+INFO:tensorflow:Wrote dataset indices [107191509, 108531403) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00080-of-00100
+INFO:tensorflow:Wrote dataset indices [108531403, 109871297) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00081-of-00100
+INFO:tensorflow:Wrote dataset indices [109871297, 111211191) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00082-of-00100
+INFO:tensorflow:Wrote dataset indices [111211191, 112551085) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00083-of-00100
+INFO:tensorflow:Wrote dataset indices [112551085, 113890978) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00084-of-00100
+INFO:tensorflow:Wrote dataset indices [113890978, 115230872) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00085-of-00100
+INFO:tensorflow:Wrote dataset indices [115230872, 116570766) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00086-of-00100
+INFO:tensorflow:Wrote dataset indices [116570766, 117910660) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00087-of-00100
+INFO:tensorflow:Wrote dataset indices [117910660, 119250554) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00088-of-00100
+INFO:tensorflow:Wrote dataset indices [119250554, 120590448) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00089-of-00100
+INFO:tensorflow:Wrote dataset indices [120590448, 121930342) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00090-of-00100
+INFO:tensorflow:Wrote dataset indices [121930342, 123270236) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00091-of-00100
+INFO:tensorflow:Wrote dataset indices [123270236, 124610129) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00092-of-00100
+INFO:tensorflow:Wrote dataset indices [124610129, 125950023) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00093-of-00100
+INFO:tensorflow:Wrote dataset indices [125950023, 127289917) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00094-of-00100
+INFO:tensorflow:Wrote dataset indices [127289917, 128629811) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00095-of-00100
+INFO:tensorflow:Wrote dataset indices [128629811, 129969705) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00096-of-00100
+INFO:tensorflow:Wrote dataset indices [129969705, 131309599) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00097-of-00100
+INFO:tensorflow:Wrote dataset indices [131309599, 132649493) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00098-of-00100
+INFO:tensorflow:Wrote dataset indices [132649493, 133989387) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/train-00099-of-00100
+INFO:tensorflow:Finished writing 133989387 sentences in dataset train.
+INFO:tensorflow:Writing dataset validation
+INFO:tensorflow:Wrote dataset indices [0, 50000) to output shard /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/validation-00000-of-00001
+INFO:tensorflow:Finished writing 50000 sentences in dataset validation.

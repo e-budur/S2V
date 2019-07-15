@@ -1,12 +1,11 @@
+export PATH=/truba_scratch/eakbas/software/cuda-9.0/bin:$PATH
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/truba_scratch/eakbas/software/cuda-9.0/lib64
+######################################################################
 
 NUM_WORDS=100001
-OUTPUT_DIR="../../data/bulk_sentences/en/UMBC-SMALL-TFRecords" 
-#VOCAB_FILE="../../data/word_embeddings/glove/glove.840B.300d_dictionary.txt"  
-TOKENIZED_FILES="../../data/bulk_sentences/en/UMBC-SMALL/*.txt"
+OUTPUT_DIR="/truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-SMALL-TFRecords"
+#VOCAB_FILE="../../data/word_embeddings/glove/glove.840B.300d_dictionary.txt"
+TOKENIZED_FILES="/truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-SMALL/*.txt"
 
-python ../../src/data/preprocess_dataset.py \
-  --input_files "$TOKENIZED_FILES" \
-  --output_dir $OUTPUT_DIR \
-  --num_words $NUM_WORDS \
-  --max_sentence_length 50 \
-  --case_sensitive False
+python /truba/home/ebudur/tse-s2v/src/data/preprocess_dataset.py --input_files "$TOKENIZED_FILES" --output_dir $OUTPUT_DIR --num_words $NUM_WORDS --max_sentence_length 50 --case_sensitive False
+

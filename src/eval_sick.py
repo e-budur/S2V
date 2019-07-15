@@ -12,13 +12,15 @@ from keras.models import Sequential
 from keras.layers.core import Dense, Activation
 from keras.optimizers import Adam
 import codecs
+from unicode_tr import unicode_tr
+import sentencepiece as spm
 
-def evaluate(encoder, seed=1234, evaltest=False, loc='./data/'):
+def evaluate(encoder, seed=1234, evaltest=False, loc='./data/', sp=None):
     """
     Run experiment
     """
     print 'Preparing data...'
-    train, dev, test, scores = load_data(loc)
+    train, dev, test, scores = load_data(loc, sp)
     train[0], train[1], scores[0] = shuffle(train[0], train[1], scores[0], random_state=seed)
     
     print 'Computing training skipthoughts...'
@@ -116,7 +118,7 @@ def encode_labels(labels, nclass=5):
     return Y
 
 
-def load_data(loc='./data/'):
+def load_data(loc='./data/', sp=None):
     """
     Load the SICK semantic-relatedness dataset
     """
@@ -125,21 +127,21 @@ def load_data(loc='./data/'):
     print('loc', loc)
     with codecs.open(os.path.join(loc, 'SICK_train.txt'), mode='rb', encoding='utf-8') as f:
         for line in f:
-            text = line.strip().split('\t')
-            trainA.append(text[1])
-            trainB.append(text[2])
+            text = unicode_tr(line).lower().strip().split('\t')
+            trainA.append(encode_sentence(text[1], sp))
+            trainB.append(encode_sentence(text[2], sp))
             trainS.append(text[3])
     with codecs.open(os.path.join(loc, 'SICK_trial.txt'), mode='rb', encoding='utf-8') as f:
         for line in f:
-            text = line.strip().split('\t')
-            devA.append(text[1])
-            devB.append(text[2])
+            text = unicode_tr(line).lower().strip().split('\t')
+            devA.append(encode_sentence(text[1], sp))
+            devB.append(encode_sentence(text[2], sp))
             devS.append(text[3])
     with codecs.open(os.path.join(loc, 'SICK_test_annotated.txt'), mode='rb', encoding='utf-8') as f:
         for line in f:
-            text = line.strip().split('\t')
-            testA.append(text[1])
-            testB.append(text[2])
+            text = unicode_tr(line).lower().strip().split('\t')
+            testA.append(encode_sentence(text[1], sp))
+            testB.append(encode_sentence(text[2], sp))
             testS.append(text[3])
 
     trainS = [float(s) for s in trainS[1:]]
@@ -148,4 +150,9 @@ def load_data(loc='./data/'):
 
     return [trainA[1:], trainB[1:]], [devA[1:], devB[1:]], [testA[1:], testB[1:]], [trainS, devS, testS]
 
-
+def encode_sentence(sentence, sp):
+  if sp == None:
+     return sentence
+  encoded_pieces = sp.EncodeAsPieces(sentence)
+  sentence = ' '.join(encoded_pieces)
+  return sentence

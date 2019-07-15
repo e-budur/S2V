@@ -1,0 +1,42 @@
+INFO:tensorflow:Building training graph.
+INFO:tensorflow:Prefetching values from 100 files matching /truba_scratch/ebudur/data/bulk_sentences/tr/TR-SP-TFRecords/train-?????-of-00100
+WARNING:tensorflow:From /truba/home/ebudur/anaconda2/envs/tse-gpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+WARNING:tensorflow:From /truba/home/ebudur/anaconda2/envs/tse-gpu/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+/truba/home/ebudur/tse-s2v/src/s2v_model.py:293: RuntimeWarning: invalid value encountered in divide
+  targets_np = targets_np/targets_np_sum
+WARNING:tensorflow:From /truba/home/ebudur/tse-s2v/src/s2v_model.py:301: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+WARNING:tensorflow:From /truba/home/ebudur/anaconda2/envs/tse-gpu/lib/python2.7/site-packages/tensorflow/contrib/slim/python/slim/learning.py:737: __init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2019-07-14 18:07:16.749430: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-07-14 18:07:17.308906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:3b:00.0
+totalMemory: 15.89GiB freeMemory: 15.60GiB
+2019-07-14 18:07:17.308998: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-14 18:07:17.576067: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-14 18:07:17.576169: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-14 18:07:17.576184: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-14 18:07:17.576428: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15123 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:3b:00.0, compute capability: 6.0)
+INFO:tensorflow:Restoring parameters from /truba_scratch/ebudur/data/results/TR-SP/train/model.ckpt-61652
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /truba_scratch/ebudur/data/results/TR-SP/train/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 61652.
+INFO:tensorflow:global step 61652: loss = 5.9602 (1.399 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.

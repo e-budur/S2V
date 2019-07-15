@@ -1,0 +1,58 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+model_config <configuration._HParams object at 0x2adf3e09b510>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/TR/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train/model.ckpt-61652
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/tr/MULTINLI-MT-TR/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 392702 samples, validate on 9815 samples
+Epoch 1/1
+ - 62s - loss: 0.0065 - acc: 0.3336 - val_loss: 1.1921e-07 - val_acc: 0.3274
+Training accuracy:33.35837352497813 Validation accuracy:32.73560876361703
+Train on 392702 samples, validate on 9815 samples
+Epoch 1/1
+ - 62s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3274
+
+  32/9815 [..............................] - ETA: 11s
+ 832/9815 [=>............................] - ETA: 0s 
+1504/9815 [===>..........................] - ETA: 0s
+2176/9815 [=====>........................] - ETA: 0s
+2880/9815 [=======>......................] - ETA: 0s
+3552/9815 [=========>....................] - ETA: 0s
+4224/9815 [===========>..................] - ETA: 0s
+4896/9815 [=============>................] - ETA: 0s
+5568/9815 [================>.............] - ETA: 0s
+6240/9815 [==================>...........] - ETA: 0s
+6912/9815 [====================>.........] - ETA: 0s
+7584/9815 [======================>.......] - ETA: 0s
+8256/9815 [========================>.....] - ETA: 0s
+8928/9815 [==========================>...] - ETA: 0s
+9600/9815 [============================>.] - ETA: 0s
+9815/9815 [==============================] - 1s 78us/step
+Dev Accuracy: 32.73560876361703
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+
+  32/9815 [..............................] - ETA: 0s
+1536/9815 [===>..........................] - ETA: 0s
+2944/9815 [=======>......................] - ETA: 0s
+4288/9815 [============>.................] - ETA: 0s
+5088/9815 [==============>...............] - ETA: 0s
+5792/9815 [================>.............] - ETA: 0s
+6464/9815 [==================>...........] - ETA: 0s
+7136/9815 [====================>.........] - ETA: 0s
+7808/9815 [======================>.......] - ETA: 0s
+8480/9815 [========================>.....] - ETA: 0s
+9152/9815 [==========================>...] - ETA: 0s
+9815/9815 [==============================] - 1s 57us/step
+acc: 32.74%

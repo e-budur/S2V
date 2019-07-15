@@ -40,6 +40,7 @@ import os
 
 import numpy as np
 import tensorflow as tf
+import sentencepiece as spm
 
 FLAGS = tf.flags.FLAGS
 
@@ -48,6 +49,9 @@ tf.flags.DEFINE_string("input_files", None,
                        "files. The format of the input files is assumed to be "
                        "a list of newline-separated sentences, where each "
                        "sentence is already tokenized.")
+
+tf.flags.DEFINE_string("sentencepiece_model", "",
+                       "(Optional) Pretrained sentencepiece model to be used.")
 
 tf.flags.DEFINE_string("vocab_file", "",
                        "(Optional) existing vocab file. Otherwise, a new vocab "
@@ -85,7 +89,7 @@ tf.logging.set_verbosity(tf.logging.INFO)
 UNK = "<unk>"
 UNK_ID = 0
 
-def _build_vocabulary(input_files):
+def _build_vocabulary(input_files, sp):
   """Loads or builds the model vocabulary.
 
   Args:
@@ -94,12 +98,14 @@ def _build_vocabulary(input_files):
   Returns:
     vocab: A dictionary of word to id.
   """
+
   if FLAGS.vocab_file:
     tf.logging.info("Loading existing vocab file.")
     vocab = collections.OrderedDict()
     with tf.gfile.GFile(FLAGS.vocab_file, mode="r") as f:
       for i, line in enumerate(f):
-        word = line.decode("utf-8").strip()
+        line = line.decode("utf-8").strip()
+        word = line.strip()
         if word in vocab:
           print('Duplicate word:', word)
         #assert word not in vocab, "Attempting to add word twice: %s" % word
@@ -107,6 +113,7 @@ def _build_vocabulary(input_files):
     tf.logging.info("Read vocab of size %d from %s",
                     len(vocab), FLAGS.vocab_file)
     return vocab
+  
 
   tf.logging.info("Creating vocabulary.")
   num = 0
@@ -114,6 +121,9 @@ def _build_vocabulary(input_files):
   for input_file in input_files:
     tf.logging.info("Processing file: %s", input_file)
     for sentence in tf.gfile.FastGFile(input_file):
+      if sp != None:
+         encoded_pieces = sp.EncodeAsPieces(sentence)
+         sentence = ' '.join(encoded_pieces)
       wordcount.update(sentence.split())
 
       num += 1
@@ -179,7 +189,7 @@ def _create_serialized_example(current, vocab):
 
   return example.SerializeToString()
 
-def _process_input_file(filename, vocab, stats):
+def _process_input_file(filename, vocab, stats, sp):
   """Processes the sentences in an input file.
 
   Args:
@@ -189,11 +199,14 @@ def _process_input_file(filename, vocab, stats):
   Returns:
     processed: A list of serialized Example protos
   """
-  
+   
   tf.logging.info("Processing input file: %s", filename)
   processed = []
-
+ 
   for sentence_str in tf.gfile.FastGFile(filename):
+    if sp != None:
+      encoded_pieces = sp.EncodeAsPieces(sentence_str)
+      sentence_str = ' '.join(encoded_pieces)
     sentence_tokens = sentence_str.split()
 
     sentence_tokens = sentence_tokens[:FLAGS.max_sentence_length]
@@ -250,14 +263,20 @@ def main(unused_argv):
       raise ValueError("Found no files matching %s" % pattern)
     input_files.extend(match)
   tf.logging.info("Found %d input files.", len(input_files))
+  
+  sp = None
+  if FLAGS.sentencepiece_model:
+     sp = spm.SentencePieceProcessor()
+     sp.Load(FLAGS.sentencepiece_model)
 
-  vocab = _build_vocabulary(input_files)
+  vocab = _build_vocabulary(input_files, sp)
 
   tf.logging.info("Generating dataset.")
+
   stats = collections.Counter()
   dataset = []
   for filename in input_files:
-    dataset.extend(_process_input_file(filename, vocab, stats))
+    dataset.extend(_process_input_file(filename, vocab, stats, sp))
     if FLAGS.max_sentences and stats["sentence_count"] >= FLAGS.max_sentences:
       break
 
