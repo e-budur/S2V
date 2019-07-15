@@ -1,0 +1,9 @@
+TensorBoard 1.9.0 at http://0.0.0.0:8082 (Press CTRL+C to quit)
+W1118 19:52:05.182404 Thread-3 application.py:293] path /[[_dataImageSrc]] not found, sending 404
+W1118 19:52:05.804194 Thread-2 application.py:293] path /[[_imageURL]] not found, sending 404
+W1118 19:56:48.067518 Thread-9 application.py:293] path /[[_dataImageSrc]] not found, sending 404
+W1118 19:56:48.710257 Thread-10 application.py:293] path /[[_imageURL]] not found, sending 404
+W1118 19:57:22.375082 Thread-11 application.py:293] path /[[_dataImageSrc]] not found, sending 404
+W1118 19:57:23.269544 Thread-11 application.py:293] path /[[_imageURL]] not found, sending 404
+W1118 20:28:18.669773 Thread-17 application.py:293] path /[[_dataImageSrc]] not found, sending 404
+W1118 20:28:19.230730 Thread-17 application.py:293] path /[[_imageURL]] not found, sending 404

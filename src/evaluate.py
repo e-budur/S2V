@@ -26,6 +26,7 @@ import eval_classification
 import eval_msrp
 import eval_sick
 import eval_trec
+import eval_nli
 
 import tensorflow as tf
 import numpy as np
@@ -34,6 +35,7 @@ import configuration
 import encoder_manager
 
 import json
+import sentencepiece as spm
 
 FLAGS = tf.flags.FLAGS
 
@@ -49,6 +51,7 @@ tf.flags.DEFINE_integer("sequence_length", 30, "Max sentence length considered")
 tf.flags.DEFINE_string("model_config", None, "Model configuration json")
 tf.flags.DEFINE_string("results_path", None, "Model results path")
 tf.flags.DEFINE_string("Glove_path", None, "Path to Glove dictionary")
+tf.flags.DEFINE_string("sentencepiece_model_path", None, "Path to Sentencepiece model")
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
@@ -65,6 +68,12 @@ def main(unused_argv):
 
   if type(model_config) is dict:
     model_config = [model_config]
+  
+  sp = None
+  if FLAGS.sentencepiece_model_path:
+     print('Loading sentencepiece model', FLAGS.sentencepiece_model_path)
+     sp = spm.SentencePieceProcessor()
+     sp.Load(FLAGS.sentencepiece_model_path)
 
   for mdl_cfg in model_config:
     model_config = configuration.model_config(mdl_cfg, mode="encode")
@@ -76,14 +85,146 @@ def main(unused_argv):
     scores = results[0]
     print('Mean score', np.mean(scores))
   elif FLAGS.eval_task == "SICK":
-    results = eval_sick.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir)
+    results = eval_sick.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, sp=sp)
   elif FLAGS.eval_task == "MSRP":
     results = eval_msrp.evaluate(
         encoder, evalcv=True, evaltest=True, use_feats=False, loc=FLAGS.data_dir)
   elif FLAGS.eval_task == "TREC":
     eval_trec.evaluate(encoder, evalcv=True, evaltest=True, loc=FLAGS.data_dir)
+  elif FLAGS.eval_task == 'SNLI-MT-TR':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'snli_train_translation.jsonl',
+                  'dev': 'snli_dev_translation.jsonl',
+                  'test': 'snli_test_translation.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'translate-sentence1',
+                  'sentence2':'translate-sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+
+  elif FLAGS.eval_task == 'SNLI':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'snli_1.0_train.jsonl',
+                  'dev': 'snli_1.0_dev.jsonl',
+                  'test': 'snli_1.0_test.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'sentence1',
+                  'sentence2':'sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+
+  elif FLAGS.eval_task == 'MULTINLI-MT-TR-MATCHED':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'multinli_train_translation.jsonl',
+                  'dev': 'multinli_dev_matched_translation.jsonl',
+                  'test': 'multinli_dev_matched_translation.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'translate-sentence1',
+                  'sentence2':'translate-sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+
+  elif FLAGS.eval_task == 'MULTINLI-MATCHED':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'multinli_1.0_train.jsonl',
+                  'dev': 'multinli_1.0_dev_matched.jsonl',
+                  'test': 'multinli_1.0_dev_matched.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'sentence1',
+                  'sentence2':'sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+  elif FLAGS.eval_task == 'MULTINLI-MT-TR-MISMATCHED':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'multinli_train_translation.jsonl',
+                  'dev': 'multinli_dev_matched_translation.jsonl',
+                  'test': 'multinli_dev_mismatched_translation.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'translate-sentence1',
+                  'sentence2':'translate-sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+  elif FLAGS.eval_task == 'MULTINLI-MISMATCHED':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'multinli_1.0_train.jsonl',
+                  'dev': 'multinli_1.0_dev_matched.jsonl',
+                  'test': 'multinli_1.0_dev_mismatched.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'sentence1',
+                  'sentence2':'sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+  elif FLAGS.eval_task == 'XNLI-MT-TR':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'multinli_train_translation.jsonl',
+                  'dev': 'xnli_dev_translation.jsonl',
+                  'test': 'xnli_test_translation.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'translate-sentence1',
+                  'sentence2':'translate-sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+  elif FLAGS.eval_task == 'XNLI':
+    file_meta_data = {
+               'file_names':{
+                  'train': 'multinli_1.0_train.jsonl',
+                  'dev': 'xnli.dev.jsonl',
+                  'test': 'xnli.test.jsonl'
+               },
+
+               'sentence_keys':{
+                  'sentence1':'sentence1',
+                  'sentence2':'sentence2'
+               },
+
+               'label_classes':['contradiction','entailment', 'neutral']
+    }
+    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+
   else:
-    raise ValueError("Unrecognized eval_task: %s" % FLAGS.eval_task)
+       raise ValueError("Unrecognized eval_task: %s" % FLAGS.eval_task)
 
   encoder.close()
 

@@ -5,13 +5,13 @@
 #SBATCH -N 1
 #SBATCH -n 4
 #SBATCH -c 10
-#SBATCH --workdir=/truba/home/ebudur/tse-s2v/scripts/model1_task2/slurm_outputs/
+#SBATCH --workdir=/truba/home/ebudur/tse-s2v/scripts/model1_task2/slurm_outputs/eval/
 #SBATCH --gres=gpu:1
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=emrahbudur@gmail.com
-#SBATCH --time=10-00:00:00
-#SBATCH --output=/truba/home/ebudur/tse-s2v/scripts/model1_task2/slurm_outputs/slurm-%j.out
-#SBATCH --error=/truba/home/ebudur/tse-s2v/scripts/model1_task2/slurm_outputs/slurm-%j.err
+#SBATCH --time=15-00:00:00
+#SBATCH --output=/truba/home/ebudur/tse-s2v/scripts/model1_task2/slurm_outputs/eval/slurm-%j.out
+#SBATCH --error=/truba/home/ebudur/tse-s2v/scripts/model1_task2/slurm_outputs/eval/slurm-%j.err
 
 ###################  Bu arayi degistirmeyin ##########################
 export PATH=/truba_scratch/eakbas/software/cuda-9.0/bin:$PATH
@@ -22,7 +22,7 @@ WORK_DIR="/truba/home/ebudur/tse-s2v" #needs to be changed according to your spe
 
 TASK='SICK'
 
-MDLS_PATH="$WORK_DIR/data/results"
+MDLS_PATH="/truba_scratch/ebudur/data/results"
 MDL_CFGS="$WORK_DIR/model_configs"
 #GLOVE_PATH="$WORK_DIR/data/word_embeddings/glove"
 

@@ -9,7 +9,7 @@
                 "name": "word_embedding",
                 "dim": 620,
                 "size": 100000,
-                "vocab_file": "/truba/home/ebudur/tse-s2v/data/bulk_sentences/TR/TR-TFRecords/vocab.txt",
+                "vocab_file": "/truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR-TFRecords/vocab.txt",
                 "embs_file": ""
         }
 	]

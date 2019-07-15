@@ -3,6 +3,6 @@ data/
 .ipynb_checkpoints/
 results/
 dictionaries/glove/
-scripts/model1_task1/slurm_outputs/
-/truba/home/ebudur/tse-s2v/scripts/*/*.out
 *.pyc
+*ngrok*
+*nohup*

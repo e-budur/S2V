@@ -1,0 +1,794 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+model_config <configuration._HParams object at 0x2aeb1c230f90>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/TR/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train/model.ckpt-61652
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/tr/SICK/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.4679 - val_loss: 1.4205
+0.15103766511094957
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.3996 - val_loss: 1.3762
+0.6024848728578003
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.3508 - val_loss: 1.3406
+0.6405799770903701
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.3113 - val_loss: 1.3121
+0.6516429823019783
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.2790 - val_loss: 1.2888
+0.6580767697556089
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.2522 - val_loss: 1.2696
+0.6629515686419276
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.2296 - val_loss: 1.2536
+0.6670192411633763
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.2102 - val_loss: 1.2400
+0.6705515186549539
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1934 - val_loss: 1.2283
+0.6736811074818494
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1785 - val_loss: 1.2183
+0.6764886521545599
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1653 - val_loss: 1.2095
+0.6790301616617713
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1535 - val_loss: 1.2018
+0.6813477567306121
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1427 - val_loss: 1.1950
+0.6834745905285348
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1329 - val_loss: 1.1890
+0.6854373635189626
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1238 - val_loss: 1.1836
+0.6872580466592658
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1155 - val_loss: 1.1787
+0.6889548407948477
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1077 - val_loss: 1.1743
+0.6905429929622685
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.1004 - val_loss: 1.1703
+0.6920352983609146
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0936 - val_loss: 1.1667
+0.6934427274445123
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0871 - val_loss: 1.1634
+0.6947744144242314
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0810 - val_loss: 1.1603
+0.6960382638962883
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0753 - val_loss: 1.1575
+0.6972411100649072
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0698 - val_loss: 1.1550
+0.6983887236677153
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0645 - val_loss: 1.1526
+0.6994861959325362
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0595 - val_loss: 1.1504
+0.7005379163602818
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0547 - val_loss: 1.1483
+0.7015476143381629
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0501 - val_loss: 1.1464
+0.702518730719346
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0457 - val_loss: 1.1447
+0.7034540299323109
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0414 - val_loss: 1.1430
+0.7043562199246052
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0373 - val_loss: 1.1415
+0.7052274606088974
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0333 - val_loss: 1.1400
+0.7060698328530323
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0294 - val_loss: 1.1387
+0.7068850333727758
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0257 - val_loss: 1.1374
+0.7076747206947284
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0221 - val_loss: 1.1362
+0.708440288254294
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0185 - val_loss: 1.1351
+0.7091830434769151
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0151 - val_loss: 1.1340
+0.709904145218417
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0118 - val_loss: 1.1330
+0.7106046518216544
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0085 - val_loss: 1.1321
+0.7112854059300406
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0054 - val_loss: 1.1312
+0.7119474361202364
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 1.0023 - val_loss: 1.1303
+0.7125914265779764
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9993 - val_loss: 1.1295
+0.7132181066741571
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9963 - val_loss: 1.1288
+0.7138282545072386
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9934 - val_loss: 1.1281
+0.714422409022714
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9906 - val_loss: 1.1274
+0.7150011628409408
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9879 - val_loss: 1.1268
+0.7155650751557114
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9852 - val_loss: 1.1262
+0.7161146214572036
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9825 - val_loss: 1.1256
+0.7166503402497775
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9799 - val_loss: 1.1251
+0.7171725557019556
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9774 - val_loss: 1.1245
+0.717681771228431
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9749 - val_loss: 1.1241
+0.7181784198520773
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9724 - val_loss: 1.1236
+0.7186627969432527
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9700 - val_loss: 1.1232
+0.7191352894268089
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9677 - val_loss: 1.1228
+0.7195962512762784
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9654 - val_loss: 1.1224
+0.72004601151391
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9631 - val_loss: 1.1220
+0.7204848800392222
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9608 - val_loss: 1.1216
+0.720913094656737
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9586 - val_loss: 1.1213
+0.721331026923348
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9565 - val_loss: 1.1210
+0.7217389176277614
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9543 - val_loss: 1.1207
+0.7221369381629321
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9522 - val_loss: 1.1205
+0.7225255121220455
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9502 - val_loss: 1.1202
+0.7229047489822578
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9481 - val_loss: 1.1200
+0.7232749645478644
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9461 - val_loss: 1.1197
+0.7236363335650711
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9441 - val_loss: 1.1195
+0.7239890994387395
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9422 - val_loss: 1.1193
+0.7243334683351621
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9403 - val_loss: 1.1191
+0.7246696967293209
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9384 - val_loss: 1.1190
+0.7249979366596543
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9365 - val_loss: 1.1188
+0.7253183488762039
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9347 - val_loss: 1.1187
+0.7256311943005128
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9328 - val_loss: 1.1185
+0.7259366269946944
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9311 - val_loss: 1.1184
+0.7262348418574048
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9293 - val_loss: 1.1183
+0.7265259844432069
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9275 - val_loss: 1.1182
+0.7268102604600216
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9258 - val_loss: 1.1181
+0.7270877780336221
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9241 - val_loss: 1.1181
+0.7273587870693398
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9224 - val_loss: 1.1180
+0.7276233642629667
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9208 - val_loss: 1.1179
+0.7278816656620527
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9191 - val_loss: 1.1179
+0.7281338903424319
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9175 - val_loss: 1.1178
+0.7283801514940161
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9159 - val_loss: 1.1178
+0.7286205710304233
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9143 - val_loss: 1.1178
+0.7288553617932629
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9128 - val_loss: 1.1178
+0.7290845560111398
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9112 - val_loss: 1.1178
+0.7293083663314018
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9097 - val_loss: 1.1178
+0.7295268858735457
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9082 - val_loss: 1.1178
+0.7297402429358092
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9067 - val_loss: 1.1178
+0.729948550412389
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9052 - val_loss: 1.1178
+0.7301519286815161
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9037 - val_loss: 1.1179
+0.7303504875694086
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9023 - val_loss: 1.1179
+0.7305443376750288
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.9009 - val_loss: 1.1179
+0.7307336230427628
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8994 - val_loss: 1.1180
+0.7309184505762448
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8980 - val_loss: 1.1181
+0.7310988546784329
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8967 - val_loss: 1.1181
+0.7312750064973514
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8953 - val_loss: 1.1182
+0.7314469469916368
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8939 - val_loss: 1.1183
+0.7316148197888858
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8926 - val_loss: 1.1183
+0.7317787514596018
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8913 - val_loss: 1.1184
+0.7319387419058937
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8899 - val_loss: 1.1185
+0.7320949234072875
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8886 - val_loss: 1.1186
+0.732247378970103
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8874 - val_loss: 1.1187
+0.7323962021168332
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8861 - val_loss: 1.1188
+0.7325414816614141
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8848 - val_loss: 1.1189
+0.7326832621919689
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8836 - val_loss: 1.1191
+0.7328216594195094
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8823 - val_loss: 1.1192
+0.7329567661553784
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8811 - val_loss: 1.1193
+0.7330885895107463
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8799 - val_loss: 1.1194
+0.7332172314046612
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8787 - val_loss: 1.1196
+0.7333427709204048
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8775 - val_loss: 1.1197
+0.7334653106954979
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8763 - val_loss: 1.1199
+0.7335848544960111
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8751 - val_loss: 1.1200
+0.7337014928994987
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8739 - val_loss: 1.1202
+0.7338153358784433
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8728 - val_loss: 1.1203
+0.733926338128957
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8716 - val_loss: 1.1205
+0.7340347450506328
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8705 - val_loss: 1.1206
+0.7341403768161983
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8694 - val_loss: 1.1208
+0.7342434770043017
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8683 - val_loss: 1.1210
+0.7343439622639992
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8672 - val_loss: 1.1212
+0.7344420056189473
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8661 - val_loss: 1.1213
+0.7345376158205527
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8650 - val_loss: 1.1215
+0.7346308374688817
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8639 - val_loss: 1.1217
+0.7347217227805256
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8629 - val_loss: 1.1219
+0.7348103362104134
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8618 - val_loss: 1.1221
+0.7348966643928619
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8607 - val_loss: 1.1223
+0.7349808384538978
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8597 - val_loss: 1.1225
+0.7350628536258542
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8587 - val_loss: 1.1227
+0.7351427770205828
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8577 - val_loss: 1.1229
+0.7352206548594769
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8566 - val_loss: 1.1231
+0.7352965049962453
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8556 - val_loss: 1.1233
+0.7353703761963268
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8546 - val_loss: 1.1235
+0.735442339187525
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8536 - val_loss: 1.1237
+0.7355123663050268
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8527 - val_loss: 1.1239
+0.7355805829068587
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8517 - val_loss: 1.1241
+0.7356469252402577
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8507 - val_loss: 1.1244
+0.7357115048437591
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8498 - val_loss: 1.1246
+0.7357743734484447
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8488 - val_loss: 1.1248
+0.7358354524875803
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8479 - val_loss: 1.1250
+0.7358948904480604
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8469 - val_loss: 1.1253
+0.7359526956705503
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8460 - val_loss: 1.1255
+0.7360088376972884
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8451 - val_loss: 1.1257
+0.7360634056252278
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8441 - val_loss: 1.1260
+0.7361164525526379
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8432 - val_loss: 1.1262
+0.7361679378948754
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8423 - val_loss: 1.1264
+0.7362179421670312
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8414 - val_loss: 1.1267
+0.7362664725839297
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8405 - val_loss: 1.1269
+0.7363135466706671
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8397 - val_loss: 1.1272
+0.7363591967967725
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8388 - val_loss: 1.1274
+0.7364034875040169
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8379 - val_loss: 1.1277
+0.7364463961588625
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8370 - val_loss: 1.1279
+0.7364879899403246
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8362 - val_loss: 1.1282
+0.7365282230326129
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8353 - val_loss: 1.1284
+0.7365671934465814
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8345 - val_loss: 1.1287
+0.7366048999504101
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8336 - val_loss: 1.1290
+0.7366413118320579
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8328 - val_loss: 1.1292
+0.7366765559993758
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8320 - val_loss: 1.1295
+0.7367105948530093
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8312 - val_loss: 1.1297
+0.7367434244405098
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8303 - val_loss: 1.1300
+0.7367751157970546
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8295 - val_loss: 1.1303
+0.7368056567751605
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8287 - val_loss: 1.1305
+0.736835023011516
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8279 - val_loss: 1.1308
+0.7368633463166493
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8271 - val_loss: 1.1311
+0.7368905973414491
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8263 - val_loss: 1.1314
+0.7369167548075056
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8255 - val_loss: 1.1316
+0.7369418427039441
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8248 - val_loss: 1.1319
+0.7369659378560457
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8240 - val_loss: 1.1322
+0.736988984924661
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8232 - val_loss: 1.1325
+0.7370110441038121
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8225 - val_loss: 1.1327
+0.737032150939292
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8217 - val_loss: 1.1330
+0.7370522155650101
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8209 - val_loss: 1.1333
+0.7370713743930679
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8202 - val_loss: 1.1336
+0.7370895707037463
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8194 - val_loss: 1.1339
+0.7371069124632648
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8187 - val_loss: 1.1342
+0.737123303146371
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8180 - val_loss: 1.1344
+0.7371387932293926
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8172 - val_loss: 1.1347
+0.7371534202828174
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8165 - val_loss: 1.1350
+0.7371671820273993
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8158 - val_loss: 1.1353
+0.7371800665368932
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8151 - val_loss: 1.1356
+0.7371921586816779
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8144 - val_loss: 1.1359
+0.7372033597407441
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8136 - val_loss: 1.1362
+0.7372137758832146
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8129 - val_loss: 1.1365
+0.7372233974485722
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8122 - val_loss: 1.1368
+0.7372322231712277
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8115 - val_loss: 1.1371
+0.7372402744136456
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8109 - val_loss: 1.1374
+0.7372475212843775
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8102 - val_loss: 1.1377
+0.7372540387969295
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8095 - val_loss: 1.1380
+0.7372598180248571
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8088 - val_loss: 1.1383
+0.7372648656002422
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8081 - val_loss: 1.1386
+0.7372691486066353
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8075 - val_loss: 1.1389
+0.7372727342954614
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8068 - val_loss: 1.1392
+0.7372755878945857
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8061 - val_loss: 1.1395
+0.7372777847754886
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8055 - val_loss: 1.1398
+0.73727924528923
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8048 - val_loss: 1.1401
+0.7372800524283871
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8042 - val_loss: 1.1404
+0.7372802051272488
+Train on 4500 samples, validate on 500 samples
+Epoch 1/1
+ - 1s - loss: 0.8035 - val_loss: 1.1407
+Dev Pearson: 0.7372802051272488
+Computing test skipthoughts...
+Computing feature combinations...
+Evaluating...
+Test Pearson: 0.7767414617451377
+Test Spearman: 0.7042856789726142
+Test MSE: 0.40369925427270614

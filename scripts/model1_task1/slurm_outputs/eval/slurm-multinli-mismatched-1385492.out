@@ -1,0 +1,59 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+model_config <configuration._HParams object at 0x2b6eaceb1490>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/UMBC/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/UMBC/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/UMBC/train/model.ckpt-334973
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/eng/MultiNLI_1.0/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 392702 samples, validate on 9815 samples
+Epoch 1/1
+ - 68s - loss: 0.0013 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3274
+Training accuracy:33.334436799420324 Validation accuracy:32.73560876361703
+Train on 392702 samples, validate on 9815 samples
+Epoch 1/1
+ - 67s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3274
+
+  32/9815 [..............................] - ETA: 12s
+ 832/9815 [=>............................] - ETA: 1s 
+1568/9815 [===>..........................] - ETA: 0s
+2304/9815 [======>.......................] - ETA: 0s
+2944/9815 [=======>......................] - ETA: 0s
+3648/9815 [==========>...................] - ETA: 0s
+4352/9815 [============>.................] - ETA: 0s
+5024/9815 [==============>...............] - ETA: 0s
+5696/9815 [================>.............] - ETA: 0s
+6432/9815 [==================>...........] - ETA: 0s
+7136/9815 [====================>.........] - ETA: 0s
+7840/9815 [======================>.......] - ETA: 0s
+8512/9815 [=========================>....] - ETA: 0s
+9216/9815 [===========================>..] - ETA: 0s
+9815/9815 [==============================] - 1s 76us/step
+Dev Accuracy: 32.73560876361703
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+
+  32/9832 [..............................] - ETA: 0s
+1280/9832 [==>...........................] - ETA: 0s
+2432/9832 [======>.......................] - ETA: 0s
+3392/9832 [=========>....................] - ETA: 0s
+4160/9832 [===========>..................] - ETA: 0s
+4896/9832 [=============>................] - ETA: 0s
+5568/9832 [===============>..............] - ETA: 0s
+6272/9832 [==================>...........] - ETA: 0s
+6976/9832 [====================>.........] - ETA: 0s
+7680/9832 [======================>.......] - ETA: 0s
+8384/9832 [========================>.....] - ETA: 0s
+9088/9832 [==========================>...] - ETA: 0s
+9824/9832 [============================>.] - ETA: 0s
+9832/9832 [==============================] - 1s 63us/step
+acc: 32.95%

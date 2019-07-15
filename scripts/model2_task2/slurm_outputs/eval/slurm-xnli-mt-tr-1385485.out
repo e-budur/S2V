@@ -1,0 +1,44 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Loading sentencepiece model /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/sentencepiece/spm.model
+model_config <configuration._HParams object at 0x2acbe3961550>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/TR-SP/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR-SP/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR-SP/train/model.ckpt-61653
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/tr/XNLI-MT-TR/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 392702 samples, validate on 2490 samples
+Epoch 1/1
+ - 67s - loss: 0.0016 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3333
+Training accuracy:33.3301078171386 Validation accuracy:33.333333342908375
+Train on 392702 samples, validate on 2490 samples
+Epoch 1/1
+ - 59s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3333
+Training accuracy:33.33392750738718 Validation accuracy:33.333333342908375
+Train on 392702 samples, validate on 2490 samples
+Epoch 1/1
+ - 60s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3333
+
+  32/2490 [..............................] - ETA: 3s
+ 928/2490 [==========>...................] - ETA: 0s
+1664/2490 [===================>..........] - ETA: 0s
+2400/2490 [===========================>..] - ETA: 0s
+2490/2490 [==============================] - 0s 84us/step
+Dev Accuracy: 33.333333342908375
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+
+  32/5010 [..............................] - ETA: 0s
+1760/5010 [=========>....................] - ETA: 0s
+3392/5010 [===================>..........] - ETA: 0s
+5010/5010 [==============================] - 0s 30us/step
+acc: 33.33%

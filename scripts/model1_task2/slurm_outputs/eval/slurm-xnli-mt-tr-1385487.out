@@ -1,0 +1,41 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+model_config <configuration._HParams object at 0x2aaedb37c4d0>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/TR/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train/model.ckpt-61652
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/tr/XNLI-MT-TR/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 392702 samples, validate on 2490 samples
+Epoch 1/1
+ - 68s - loss: 0.0065 - acc: 0.3336 - val_loss: 1.1921e-07 - val_acc: 0.3333
+Training accuracy:33.36346644530958 Validation accuracy:33.333333342908375
+Train on 392702 samples, validate on 2490 samples
+Epoch 1/1
+ - 69s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3333
+
+  32/2490 [..............................] - ETA: 2s
+ 736/2490 [=======>......................] - ETA: 0s
+1408/2490 [===============>..............] - ETA: 0s
+2112/2490 [========================>.....] - ETA: 0s
+2490/2490 [==============================] - 0s 89us/step
+Dev Accuracy: 33.333333342908375
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+
+  32/5010 [..............................] - ETA: 0s
+1344/5010 [=======>......................] - ETA: 0s
+2688/5010 [===============>..............] - ETA: 0s
+4000/5010 [======================>.......] - ETA: 0s
+4800/5010 [===========================>..] - ETA: 0s
+5010/5010 [==============================] - 0s 44us/step
+acc: 33.33%
