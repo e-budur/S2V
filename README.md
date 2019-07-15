@@ -21,7 +21,7 @@ Examples are taken from The Stanford Natural Language Inference (SNLI) Corpus (h
 
 We want to build a Generic Sentence Encoder model for the Turkish. However, there are not any NLI datasets in the Turkish language due to the high cost of crowdsourcing. We want to leverage the new Amazon Translate Service to translate the NLI datasets available in the English language into the Turkish language as a cost effective solution and publish the translated datasets publicly to boost Turkish NLP works. 
 
-:hatching_chick: (2019-01-26) Our research has been granted [AWS Research Credits (https://twitter.com/ebudur/status/1090301816183685120)   to translate the most commong NLI datasets into Turkish and evaluate our resulting NLI models.
+:hatching_chick: (2019-01-26) Our research has been granted [AWS Research Credits](https://twitter.com/ebudur/status/1090301816183685120)   to translate the most commong NLI datasets into Turkish and evaluate our resulting NLI models.
 
 :dart: (2019-03-31) We have applied for the AWS Research Credits again to translate all available NLI and Textual Entailment datasets into Turkish.
 
@@ -30,12 +30,6 @@ We want to build a Generic Sentence Encoder model for the Turkish. However, ther
 # Experiment #1
 
 The results of the following experiments were obtained.
-
-
-
-* Model 1: Training Quick thought with minimal preprocessing (lowercase)
-   * Task 1: Using English dataset (UMBC)
-
 
 Experiment Name | Language      | Dataset        | Preprocessing                 |  Model # | Metric    | Value
 --------------- | ------------- | -------------  | ----------------------------- | -------- | --------- | -------------------
