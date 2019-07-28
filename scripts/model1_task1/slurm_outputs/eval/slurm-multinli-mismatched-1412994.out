@@ -1,0 +1,81 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+model_config <configuration._HParams object at 0x2b21cf33d6d0>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/UMBC/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/UMBC/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/UMBC/train/model.ckpt-334973
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/eng/MultiNLI_1.0/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 392702 samples, validate on 9832 samples
+Epoch 1/10
+ - 46s - loss: 0.0013 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 2/10
+ - 57s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 3/10
+ - 57s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 4/10
+ - 57s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 5/10
+ - 57s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 6/10
+ - 54s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 7/10
+ - 57s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 8/10
+ - 57s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 9/10
+ - 57s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 10/10
+ - 60s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Training accuracy:33.33392750738718 Validation accuracy:32.95362082994304
+Train on 392702 samples, validate on 9832 samples
+Epoch 1/10
+ - 55s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 2/10
+ - 60s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 3/10
+ - 62s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 4/10
+ - 60s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 5/10
+ - 62s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 6/10
+ - 62s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 7/10
+ - 61s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 8/10
+ - 62s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 9/10
+ - 62s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+Epoch 10/10
+ - 62s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3295
+
+  32/9832 [..............................] - ETA: 9s
+ 864/9832 [=>............................] - ETA: 0s
+1568/9832 [===>..........................] - ETA: 0s
+2272/9832 [=====>........................] - ETA: 0s
+2976/9832 [========>.....................] - ETA: 0s
+3680/9832 [==========>...................] - ETA: 0s
+4384/9832 [============>.................] - ETA: 0s
+5088/9832 [==============>...............] - ETA: 0s
+5792/9832 [================>.............] - ETA: 0s
+6496/9832 [==================>...........] - ETA: 0s
+7200/9832 [====================>.........] - ETA: 0s
+7904/9832 [=======================>......] - ETA: 0s
+8608/9832 [=========================>....] - ETA: 0s
+9312/9832 [===========================>..] - ETA: 0s
+9832/9832 [==============================] - 1s 75us/step
+Dev Accuracy: 32.95362082994304
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+Writing Test Dataset... /truba/home/ebudur/tse-s2v/data/sem_sim/eng/MultiNLI_1.0/multinli_0.9_test_mismatched_unlabeled_output.csv
+done
