@@ -1,0 +1,45 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+model_config <configuration._HParams object at 0x2ba2c4e78750>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/TR/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR/train/model.ckpt-61652
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/tr/MULTINLI-MT-TR/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 392702 samples, validate on 9815 samples
+Epoch 1/1
+ - 59s - loss: 0.0065 - acc: 0.3336 - val_loss: 1.1921e-07 - val_acc: 0.3274
+Training accuracy:33.35888281701127 Validation accuracy:32.73560876361703
+Train on 392702 samples, validate on 9815 samples
+Epoch 1/1
+ - 60s - loss: 1.1921e-07 - acc: 0.3333 - val_loss: 1.1921e-07 - val_acc: 0.3274
+
+  32/9815 [..............................] - ETA: 11s
+ 928/9815 [=>............................] - ETA: 0s 
+1664/9815 [====>.........................] - ETA: 0s
+2400/9815 [======>.......................] - ETA: 0s
+3136/9815 [========>.....................] - ETA: 0s
+3840/9815 [==========>...................] - ETA: 0s
+4576/9815 [============>.................] - ETA: 0s
+5312/9815 [===============>..............] - ETA: 0s
+6048/9815 [=================>............] - ETA: 0s
+6784/9815 [===================>..........] - ETA: 0s
+7520/9815 [=====================>........] - ETA: 0s
+8256/9815 [========================>.....] - ETA: 0s
+8992/9815 [==========================>...] - ETA: 0s
+9728/9815 [============================>.] - ETA: 0s
+9815/9815 [==============================] - 1s 72us/step
+Dev Accuracy: 32.73560876361703
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+Writing Test Dataset... /truba/home/ebudur/tse-s2v/data/sem_sim/tr/MULTINLI-MT-TR/multinli_0.9_test_matched_translation_unlabeled_output.csv
+done
