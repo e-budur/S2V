@@ -27,6 +27,7 @@ import eval_msrp
 import eval_sick
 import eval_trec
 import eval_nli
+import eval_multinli
 
 import tensorflow as tf
 import numpy as np
@@ -130,7 +131,8 @@ def main(unused_argv):
                'file_names':{
                   'train': 'multinli_train_translation.jsonl',
                   'dev': 'multinli_dev_matched_translation.jsonl',
-                  'test': 'multinli_dev_matched_translation.jsonl'
+                  'test': 'multinli_0.9_test_matched_translation_unlabeled.jsonl',
+                  'test_output': 'multinli_0.9_test_matched_translation_unlabeled_output.csv'
                },
 
                'sentence_keys':{
@@ -140,14 +142,15 @@ def main(unused_argv):
 
                'label_classes':['contradiction','entailment', 'neutral']
     }
-    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+    eval_multinli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
 
   elif FLAGS.eval_task == 'MULTINLI-MATCHED':
     file_meta_data = {
                'file_names':{
                   'train': 'multinli_1.0_train.jsonl',
                   'dev': 'multinli_1.0_dev_matched.jsonl',
-                  'test': 'multinli_1.0_dev_matched.jsonl'
+                  'test': 'multinli_0.9_test_matched_unlabeled.jsonl',
+                  'test_output': 'multinli_0.9_test_matched_unlabeled_output.csv'
                },
 
                'sentence_keys':{
@@ -157,13 +160,14 @@ def main(unused_argv):
 
                'label_classes':['contradiction','entailment', 'neutral']
     }
-    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+    eval_multinli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
   elif FLAGS.eval_task == 'MULTINLI-MT-TR-MISMATCHED':
     file_meta_data = {
                'file_names':{
                   'train': 'multinli_train_translation.jsonl',
-                  'dev': 'multinli_dev_matched_translation.jsonl',
-                  'test': 'multinli_dev_mismatched_translation.jsonl'
+                  'dev': 'multinli_dev_mismatched_translation.jsonl',
+                  'test': 'multinli_0.9_test_mismatched_translation_unlabeled.jsonl',
+                  'test_output': 'multinli_0.9_test_mismatched_translation_unlabeled_output.csv',
                },
 
                'sentence_keys':{
@@ -173,13 +177,14 @@ def main(unused_argv):
 
                'label_classes':['contradiction','entailment', 'neutral']
     }
-    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+    eval_multinli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
   elif FLAGS.eval_task == 'MULTINLI-MISMATCHED':
     file_meta_data = {
                'file_names':{
                   'train': 'multinli_1.0_train.jsonl',
-                  'dev': 'multinli_1.0_dev_matched.jsonl',
-                  'test': 'multinli_1.0_dev_mismatched.jsonl'
+                  'dev': 'multinli_1.0_dev_mismatched.jsonl',
+                  'test': 'multinli_0.9_test_mismatched_unlabeled.jsonl',
+                  'test_output': 'multinli_0.9_test_mismatched_unlabeled_output.csv'
                },
 
                'sentence_keys':{
@@ -189,7 +194,7 @@ def main(unused_argv):
 
                'label_classes':['contradiction','entailment', 'neutral']
     }
-    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+    eval_multinli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
   elif FLAGS.eval_task == 'XNLI-MT-TR':
     file_meta_data = {
                'file_names':{
@@ -221,7 +226,7 @@ def main(unused_argv):
 
                'label_classes':['contradiction','entailment', 'neutral']
     }
-    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+    eval_mutlinli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
 
   else:
        raise ValueError("Unrecognized eval_task: %s" % FLAGS.eval_task)

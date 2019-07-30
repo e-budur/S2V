@@ -60,7 +60,7 @@ def _pad(seq, target_len):
   return padded_seq, mask
 
 
-def _batch_and_pad(sequences):
+def _batch_and_pad(sequences=None, max_sent_len=1024):
   """Batches and pads sequences of word embeddings into a 2D array.
 
   Args:
@@ -71,18 +71,20 @@ def _batch_and_pad(sequences):
     mask: A numpy 0/1 array with shape [batch_size, padded_length] with zeros
       corresponding to padded elements.
   """
+ 
   batch_len = max([len(seq) for seq in sequences])
+  batch_len = min(max_sent_len, batch_len)
   batch = np.zeros((len(sequences), batch_len), dtype=np.int64)
   mask = np.zeros((len(sequences), batch_len), dtype=np.int8)
   for i in range(len(sequences)):
     seq = sequences[i]
-    l = len(seq)
-    batch[i][:l] = seq
+    l = min(len(seq), batch_len)
+    batch[i][:l] = seq[:l]
     mask[i][:l] = 1
   return batch, mask
 
 
-def _batch_and_pad_embs(sequences):
+def _batch_and_pad_embs(sequences=None, max_sent_len=1024):
   """Batches and pads sequences of word embeddings into a 2D array.
   Args:
     sequences: A list of batch_size sequences of word embeddings.
@@ -94,6 +96,7 @@ def _batch_and_pad_embs(sequences):
   batch_embeddings = []
   batch_mask = []
   batch_len = max([len(seq) for seq in sequences])
+  batch_len = min(max_sent_len, batch_len)
 
   for seq in sequences:
     embeddings, mask = _pad(seq, batch_len)
@@ -222,9 +225,7 @@ class s2v_encoder(object):
     preprocessed_data = []
     for item in data:
       tokenized = self._tokenize(item)
-
       tokenized_word_embs = [self._word_to_embedding(w, word_to_embedding) for w in tokenized]
-
       preprocessed_data.append(tokenized_word_embs)
 
     return preprocessed_data
@@ -235,7 +236,8 @@ class s2v_encoder(object):
              use_norm=True,
              verbose=True,
              batch_size=128,
-             use_eos=False):
+             use_eos=False,
+             max_sent_len=1024):
     """Encodes a sequence of sentences as skip-thought vectors.
 
     Args:
@@ -280,11 +282,11 @@ class s2v_encoder(object):
         name = feed_d[0]
         if feed_d[-1]:
           embs, mask = _batch_and_pad_embs(
-              data[start_index:start_index + batch_size])
+              sequences=data[start_index:start_index + batch_size],  max_sent_len=max_sent_len)
           feed_dict[name] = embs
         else:
           batch_ids, mask = _batch_and_pad(
-              data[start_index:start_index + batch_size])
+              sequences=data[start_index:start_index + batch_size],  max_sent_len=max_sent_len)
           feed_dict[name] = batch_ids
       feed_dict["encode_mask:0"] = mask
 

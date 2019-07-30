@@ -197,7 +197,6 @@ class s2v(object):
   def rnn(self, word_embs, mask, scope, encoder_dim, cell_type="GRU"):
 
     length = tf.to_int32(tf.reduce_sum(mask, 1), name="length")
-
     if self.config.bidir:
       if encoder_dim % 2:
         raise ValueError(

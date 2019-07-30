@@ -3,7 +3,7 @@
 #SBATCH -A ebudur
 #SBATCH -J m2_t1_eval_all_multinli_mismatched
 #SBATCH -N 1
-#SBATCH -n 4
+#SBATCH -n 2
 #SBATCH -c 10
 #SBATCH --workdir=/truba/home/ebudur/tse-s2v/scripts/model2_task1/slurm_outputs/eval/
 #SBATCH --gres=gpu:1

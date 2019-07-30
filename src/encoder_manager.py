@@ -77,7 +77,8 @@ class EncoderManager(object):
              use_norm=True,
              verbose=False,
              batch_size=128,
-             use_eos=False):
+             use_eos=False,
+             max_sent_len=1024):
     """Encodes a sequence of sentences as skip-thought vectors.
 
     Args:
@@ -85,7 +86,8 @@ class EncoderManager(object):
       use_norm: If True, normalize output skip-thought vectors to unit L2 norm.
       verbose: Whether to log every batch.
       batch_size: Batch size for the RNN encoders.
-      use_eos: If True, append the end-of-sentence word to each input sentence.
+      use_eos: If True, append the end-of-sentence word to each input sentence.,
+      max_sent_len: The max length of the input sentences. 
 
     Returns:
       thought_vectors: A list of numpy arrays corresponding to 'data'.
@@ -107,7 +109,8 @@ class EncoderManager(object):
                   use_norm=use_norm,
                   verbose=verbose,
                   batch_size=batch_size,
-                  use_eos=use_eos)))
+                  use_eos=use_eos,
+                  max_sent_len=max_sent_len)))
 
     return np.concatenate(encoded, axis=1)
 

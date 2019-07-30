@@ -2,34 +2,34 @@
   "This module will be removed in 0.20.", DeprecationWarning)
 Using TensorFlow backend.
 INFO:tensorflow:Building model.
-INFO:tensorflow:Reading vocabulary from /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-TFRecords/vocab.txt
-INFO:tensorflow:Loaded vocabulary with 100000 words.
+INFO:tensorflow:Reading vocabulary from /truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC-SP-TFRecords/vocab.txt
+INFO:tensorflow:Loaded vocabulary with 8987 words.
 WARNING:tensorflow:From /truba/home/ebudur/anaconda2/envs/tse-gpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
 Instructions for updating:
 seq_dim is deprecated, use seq_axis instead
 WARNING:tensorflow:From /truba/home/ebudur/anaconda2/envs/tse-gpu/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
 Instructions for updating:
 batch_dim is deprecated, use batch_axis instead
-2019-07-15 11:47:30.817137: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
-2019-07-15 11:47:31.315641: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+2019-07-28 21:00:41.021103: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-07-28 21:00:41.486691: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
 name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
-pciBusID: 0000:3b:00.0
+pciBusID: 0000:d8:00.0
 totalMemory: 15.89GiB freeMemory: 15.60GiB
-2019-07-15 11:47:31.315738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
-2019-07-15 11:47:32.753925: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
-2019-07-15 11:47:32.754001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
-2019-07-15 11:47:32.754015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
-2019-07-15 11:47:32.754240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15123 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:3b:00.0, compute capability: 6.0)
-INFO:tensorflow:Loading model from checkpoint: /truba_scratch/ebudur/data/results/UMBC/train/model.ckpt-334973
-INFO:tensorflow:Restoring parameters from /truba_scratch/ebudur/data/results/UMBC/train/model.ckpt-334973
+2019-07-28 21:00:41.486778: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-28 21:00:42.942482: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-28 21:00:42.942551: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-28 21:00:42.942565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-28 21:00:42.942791: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15123 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 6.0)
+INFO:tensorflow:Loading model from checkpoint: /truba_scratch/ebudur/data/results/UMBC-SP/train/model.ckpt-334973
+INFO:tensorflow:Restoring parameters from /truba_scratch/ebudur/data/results/UMBC-SP/train/model.ckpt-334973
 INFO:tensorflow:Successfully loaded checkpoint: model.ckpt-334973
 INFO:tensorflow:Batch 0 / 3068.
 INFO:tensorflow:Batch 1 / 3068.
 INFO:tensorflow:Batch 2 / 3068.
 INFO:tensorflow:Batch 3 / 3068.
-/truba/home/ebudur/tse-s2v/src/s2v_encoder.py:296: RuntimeWarning: invalid value encountered in true_divide
+/truba/home/ebudur/tse-s2v/src/s2v_encoder.py:298: RuntimeWarning: invalid value encountered in true_divide
   enc = [v / np.linalg.norm(v) for v in enc]
-/truba/home/ebudur/tse-s2v/src/s2v_encoder.py:297: RuntimeWarning: invalid value encountered in true_divide
+/truba/home/ebudur/tse-s2v/src/s2v_encoder.py:299: RuntimeWarning: invalid value encountered in true_divide
   enc_out = [v / np.linalg.norm(v) for v in enc_out]
 INFO:tensorflow:Batch 4 / 3068.
 INFO:tensorflow:Batch 5 / 3068.
@@ -6163,10 +6163,320 @@ INFO:tensorflow:Batch 3064 / 3068.
 INFO:tensorflow:Batch 3065 / 3068.
 INFO:tensorflow:Batch 3066 / 3068.
 INFO:tensorflow:Batch 3067 / 3068.
-/truba/home/ebudur/tse-s2v/src/eval_nli.py:73: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(units=3, input_dim=4800)`
+INFO:tensorflow:Batch 0 / 77.
+INFO:tensorflow:Batch 1 / 77.
+INFO:tensorflow:Batch 2 / 77.
+INFO:tensorflow:Batch 3 / 77.
+INFO:tensorflow:Batch 4 / 77.
+INFO:tensorflow:Batch 5 / 77.
+INFO:tensorflow:Batch 6 / 77.
+INFO:tensorflow:Batch 7 / 77.
+INFO:tensorflow:Batch 8 / 77.
+INFO:tensorflow:Batch 9 / 77.
+INFO:tensorflow:Batch 10 / 77.
+INFO:tensorflow:Batch 11 / 77.
+INFO:tensorflow:Batch 12 / 77.
+INFO:tensorflow:Batch 13 / 77.
+INFO:tensorflow:Batch 14 / 77.
+INFO:tensorflow:Batch 15 / 77.
+INFO:tensorflow:Batch 16 / 77.
+INFO:tensorflow:Batch 17 / 77.
+INFO:tensorflow:Batch 18 / 77.
+INFO:tensorflow:Batch 19 / 77.
+INFO:tensorflow:Batch 20 / 77.
+INFO:tensorflow:Batch 21 / 77.
+INFO:tensorflow:Batch 22 / 77.
+INFO:tensorflow:Batch 23 / 77.
+INFO:tensorflow:Batch 24 / 77.
+INFO:tensorflow:Batch 25 / 77.
+INFO:tensorflow:Batch 26 / 77.
+INFO:tensorflow:Batch 27 / 77.
+INFO:tensorflow:Batch 28 / 77.
+INFO:tensorflow:Batch 29 / 77.
+INFO:tensorflow:Batch 30 / 77.
+INFO:tensorflow:Batch 31 / 77.
+INFO:tensorflow:Batch 32 / 77.
+INFO:tensorflow:Batch 33 / 77.
+INFO:tensorflow:Batch 34 / 77.
+INFO:tensorflow:Batch 35 / 77.
+INFO:tensorflow:Batch 36 / 77.
+INFO:tensorflow:Batch 37 / 77.
+INFO:tensorflow:Batch 38 / 77.
+INFO:tensorflow:Batch 39 / 77.
+INFO:tensorflow:Batch 40 / 77.
+INFO:tensorflow:Batch 41 / 77.
+INFO:tensorflow:Batch 42 / 77.
+INFO:tensorflow:Batch 43 / 77.
+INFO:tensorflow:Batch 44 / 77.
+INFO:tensorflow:Batch 45 / 77.
+INFO:tensorflow:Batch 46 / 77.
+INFO:tensorflow:Batch 47 / 77.
+INFO:tensorflow:Batch 48 / 77.
+INFO:tensorflow:Batch 49 / 77.
+INFO:tensorflow:Batch 50 / 77.
+INFO:tensorflow:Batch 51 / 77.
+INFO:tensorflow:Batch 52 / 77.
+INFO:tensorflow:Batch 53 / 77.
+INFO:tensorflow:Batch 54 / 77.
+INFO:tensorflow:Batch 55 / 77.
+INFO:tensorflow:Batch 56 / 77.
+INFO:tensorflow:Batch 57 / 77.
+INFO:tensorflow:Batch 58 / 77.
+INFO:tensorflow:Batch 59 / 77.
+INFO:tensorflow:Batch 60 / 77.
+INFO:tensorflow:Batch 61 / 77.
+INFO:tensorflow:Batch 62 / 77.
+INFO:tensorflow:Batch 63 / 77.
+INFO:tensorflow:Batch 64 / 77.
+INFO:tensorflow:Batch 65 / 77.
+INFO:tensorflow:Batch 66 / 77.
+INFO:tensorflow:Batch 67 / 77.
+INFO:tensorflow:Batch 68 / 77.
+INFO:tensorflow:Batch 69 / 77.
+INFO:tensorflow:Batch 70 / 77.
+INFO:tensorflow:Batch 71 / 77.
+INFO:tensorflow:Batch 72 / 77.
+INFO:tensorflow:Batch 73 / 77.
+INFO:tensorflow:Batch 74 / 77.
+INFO:tensorflow:Batch 75 / 77.
+INFO:tensorflow:Batch 76 / 77.
+INFO:tensorflow:Batch 0 / 77.
+INFO:tensorflow:Batch 1 / 77.
+INFO:tensorflow:Batch 2 / 77.
+INFO:tensorflow:Batch 3 / 77.
+INFO:tensorflow:Batch 4 / 77.
+INFO:tensorflow:Batch 5 / 77.
+INFO:tensorflow:Batch 6 / 77.
+INFO:tensorflow:Batch 7 / 77.
+INFO:tensorflow:Batch 8 / 77.
+INFO:tensorflow:Batch 9 / 77.
+INFO:tensorflow:Batch 10 / 77.
+INFO:tensorflow:Batch 11 / 77.
+INFO:tensorflow:Batch 12 / 77.
+INFO:tensorflow:Batch 13 / 77.
+INFO:tensorflow:Batch 14 / 77.
+INFO:tensorflow:Batch 15 / 77.
+INFO:tensorflow:Batch 16 / 77.
+INFO:tensorflow:Batch 17 / 77.
+INFO:tensorflow:Batch 18 / 77.
+INFO:tensorflow:Batch 19 / 77.
+INFO:tensorflow:Batch 20 / 77.
+INFO:tensorflow:Batch 21 / 77.
+INFO:tensorflow:Batch 22 / 77.
+INFO:tensorflow:Batch 23 / 77.
+INFO:tensorflow:Batch 24 / 77.
+INFO:tensorflow:Batch 25 / 77.
+INFO:tensorflow:Batch 26 / 77.
+INFO:tensorflow:Batch 27 / 77.
+INFO:tensorflow:Batch 28 / 77.
+INFO:tensorflow:Batch 29 / 77.
+INFO:tensorflow:Batch 30 / 77.
+INFO:tensorflow:Batch 31 / 77.
+INFO:tensorflow:Batch 32 / 77.
+INFO:tensorflow:Batch 33 / 77.
+INFO:tensorflow:Batch 34 / 77.
+INFO:tensorflow:Batch 35 / 77.
+INFO:tensorflow:Batch 36 / 77.
+INFO:tensorflow:Batch 37 / 77.
+INFO:tensorflow:Batch 38 / 77.
+INFO:tensorflow:Batch 39 / 77.
+INFO:tensorflow:Batch 40 / 77.
+INFO:tensorflow:Batch 41 / 77.
+INFO:tensorflow:Batch 42 / 77.
+INFO:tensorflow:Batch 43 / 77.
+INFO:tensorflow:Batch 44 / 77.
+INFO:tensorflow:Batch 45 / 77.
+INFO:tensorflow:Batch 46 / 77.
+INFO:tensorflow:Batch 47 / 77.
+INFO:tensorflow:Batch 48 / 77.
+INFO:tensorflow:Batch 49 / 77.
+INFO:tensorflow:Batch 50 / 77.
+INFO:tensorflow:Batch 51 / 77.
+INFO:tensorflow:Batch 52 / 77.
+INFO:tensorflow:Batch 53 / 77.
+INFO:tensorflow:Batch 54 / 77.
+INFO:tensorflow:Batch 55 / 77.
+INFO:tensorflow:Batch 56 / 77.
+INFO:tensorflow:Batch 57 / 77.
+INFO:tensorflow:Batch 58 / 77.
+INFO:tensorflow:Batch 59 / 77.
+INFO:tensorflow:Batch 60 / 77.
+INFO:tensorflow:Batch 61 / 77.
+INFO:tensorflow:Batch 62 / 77.
+INFO:tensorflow:Batch 63 / 77.
+INFO:tensorflow:Batch 64 / 77.
+INFO:tensorflow:Batch 65 / 77.
+INFO:tensorflow:Batch 66 / 77.
+INFO:tensorflow:Batch 67 / 77.
+INFO:tensorflow:Batch 68 / 77.
+INFO:tensorflow:Batch 69 / 77.
+INFO:tensorflow:Batch 70 / 77.
+INFO:tensorflow:Batch 71 / 77.
+INFO:tensorflow:Batch 72 / 77.
+INFO:tensorflow:Batch 73 / 77.
+INFO:tensorflow:Batch 74 / 77.
+INFO:tensorflow:Batch 75 / 77.
+INFO:tensorflow:Batch 76 / 77.
+/truba/home/ebudur/tse-s2v/src/eval_multinli.py:85: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(units=3, input_dim=4800)`
   lrmodel.add(Dense(input_dim=ninputs, output_dim=nclass))
-2019-07-15 12:03:56.052478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
-2019-07-15 12:03:56.052564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
-2019-07-15 12:03:56.052582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
-2019-07-15 12:03:56.052595: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
-2019-07-15 12:03:56.052746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15123 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:3b:00.0, compute capability: 6.0)
+2019-07-28 21:18:12.492612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-28 21:18:12.492688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-28 21:18:12.492704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-28 21:18:12.492718: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-28 21:18:12.492858: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15123 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:d8:00.0, compute capability: 6.0)
+INFO:tensorflow:Batch 0 / 77.
+INFO:tensorflow:Batch 1 / 77.
+INFO:tensorflow:Batch 2 / 77.
+INFO:tensorflow:Batch 3 / 77.
+INFO:tensorflow:Batch 4 / 77.
+INFO:tensorflow:Batch 5 / 77.
+INFO:tensorflow:Batch 6 / 77.
+INFO:tensorflow:Batch 7 / 77.
+INFO:tensorflow:Batch 8 / 77.
+INFO:tensorflow:Batch 9 / 77.
+INFO:tensorflow:Batch 10 / 77.
+INFO:tensorflow:Batch 11 / 77.
+INFO:tensorflow:Batch 12 / 77.
+INFO:tensorflow:Batch 13 / 77.
+INFO:tensorflow:Batch 14 / 77.
+INFO:tensorflow:Batch 15 / 77.
+INFO:tensorflow:Batch 16 / 77.
+INFO:tensorflow:Batch 17 / 77.
+INFO:tensorflow:Batch 18 / 77.
+INFO:tensorflow:Batch 19 / 77.
+INFO:tensorflow:Batch 20 / 77.
+INFO:tensorflow:Batch 21 / 77.
+INFO:tensorflow:Batch 22 / 77.
+INFO:tensorflow:Batch 23 / 77.
+INFO:tensorflow:Batch 24 / 77.
+INFO:tensorflow:Batch 25 / 77.
+INFO:tensorflow:Batch 26 / 77.
+INFO:tensorflow:Batch 27 / 77.
+INFO:tensorflow:Batch 28 / 77.
+INFO:tensorflow:Batch 29 / 77.
+INFO:tensorflow:Batch 30 / 77.
+INFO:tensorflow:Batch 31 / 77.
+INFO:tensorflow:Batch 32 / 77.
+INFO:tensorflow:Batch 33 / 77.
+INFO:tensorflow:Batch 34 / 77.
+INFO:tensorflow:Batch 35 / 77.
+INFO:tensorflow:Batch 36 / 77.
+INFO:tensorflow:Batch 37 / 77.
+INFO:tensorflow:Batch 38 / 77.
+INFO:tensorflow:Batch 39 / 77.
+INFO:tensorflow:Batch 40 / 77.
+INFO:tensorflow:Batch 41 / 77.
+INFO:tensorflow:Batch 42 / 77.
+INFO:tensorflow:Batch 43 / 77.
+INFO:tensorflow:Batch 44 / 77.
+INFO:tensorflow:Batch 45 / 77.
+INFO:tensorflow:Batch 46 / 77.
+INFO:tensorflow:Batch 47 / 77.
+INFO:tensorflow:Batch 48 / 77.
+INFO:tensorflow:Batch 49 / 77.
+INFO:tensorflow:Batch 50 / 77.
+INFO:tensorflow:Batch 51 / 77.
+INFO:tensorflow:Batch 52 / 77.
+INFO:tensorflow:Batch 53 / 77.
+INFO:tensorflow:Batch 54 / 77.
+INFO:tensorflow:Batch 55 / 77.
+INFO:tensorflow:Batch 56 / 77.
+INFO:tensorflow:Batch 57 / 77.
+INFO:tensorflow:Batch 58 / 77.
+INFO:tensorflow:Batch 59 / 77.
+INFO:tensorflow:Batch 60 / 77.
+INFO:tensorflow:Batch 61 / 77.
+INFO:tensorflow:Batch 62 / 77.
+INFO:tensorflow:Batch 63 / 77.
+INFO:tensorflow:Batch 64 / 77.
+INFO:tensorflow:Batch 65 / 77.
+INFO:tensorflow:Batch 66 / 77.
+INFO:tensorflow:Batch 67 / 77.
+INFO:tensorflow:Batch 68 / 77.
+INFO:tensorflow:Batch 69 / 77.
+INFO:tensorflow:Batch 70 / 77.
+INFO:tensorflow:Batch 71 / 77.
+INFO:tensorflow:Batch 72 / 77.
+INFO:tensorflow:Batch 73 / 77.
+INFO:tensorflow:Batch 74 / 77.
+INFO:tensorflow:Batch 75 / 77.
+INFO:tensorflow:Batch 76 / 77.
+INFO:tensorflow:Batch 0 / 77.
+INFO:tensorflow:Batch 1 / 77.
+INFO:tensorflow:Batch 2 / 77.
+INFO:tensorflow:Batch 3 / 77.
+INFO:tensorflow:Batch 4 / 77.
+INFO:tensorflow:Batch 5 / 77.
+INFO:tensorflow:Batch 6 / 77.
+INFO:tensorflow:Batch 7 / 77.
+INFO:tensorflow:Batch 8 / 77.
+INFO:tensorflow:Batch 9 / 77.
+INFO:tensorflow:Batch 10 / 77.
+INFO:tensorflow:Batch 11 / 77.
+INFO:tensorflow:Batch 12 / 77.
+INFO:tensorflow:Batch 13 / 77.
+INFO:tensorflow:Batch 14 / 77.
+INFO:tensorflow:Batch 15 / 77.
+INFO:tensorflow:Batch 16 / 77.
+INFO:tensorflow:Batch 17 / 77.
+INFO:tensorflow:Batch 18 / 77.
+INFO:tensorflow:Batch 19 / 77.
+INFO:tensorflow:Batch 20 / 77.
+INFO:tensorflow:Batch 21 / 77.
+INFO:tensorflow:Batch 22 / 77.
+INFO:tensorflow:Batch 23 / 77.
+INFO:tensorflow:Batch 24 / 77.
+INFO:tensorflow:Batch 25 / 77.
+INFO:tensorflow:Batch 26 / 77.
+INFO:tensorflow:Batch 27 / 77.
+INFO:tensorflow:Batch 28 / 77.
+INFO:tensorflow:Batch 29 / 77.
+INFO:tensorflow:Batch 30 / 77.
+INFO:tensorflow:Batch 31 / 77.
+INFO:tensorflow:Batch 32 / 77.
+INFO:tensorflow:Batch 33 / 77.
+INFO:tensorflow:Batch 34 / 77.
+INFO:tensorflow:Batch 35 / 77.
+INFO:tensorflow:Batch 36 / 77.
+INFO:tensorflow:Batch 37 / 77.
+INFO:tensorflow:Batch 38 / 77.
+INFO:tensorflow:Batch 39 / 77.
+INFO:tensorflow:Batch 40 / 77.
+INFO:tensorflow:Batch 41 / 77.
+INFO:tensorflow:Batch 42 / 77.
+INFO:tensorflow:Batch 43 / 77.
+INFO:tensorflow:Batch 44 / 77.
+INFO:tensorflow:Batch 45 / 77.
+INFO:tensorflow:Batch 46 / 77.
+INFO:tensorflow:Batch 47 / 77.
+INFO:tensorflow:Batch 48 / 77.
+INFO:tensorflow:Batch 49 / 77.
+INFO:tensorflow:Batch 50 / 77.
+INFO:tensorflow:Batch 51 / 77.
+INFO:tensorflow:Batch 52 / 77.
+INFO:tensorflow:Batch 53 / 77.
+INFO:tensorflow:Batch 54 / 77.
+INFO:tensorflow:Batch 55 / 77.
+INFO:tensorflow:Batch 56 / 77.
+INFO:tensorflow:Batch 57 / 77.
+INFO:tensorflow:Batch 58 / 77.
+INFO:tensorflow:Batch 59 / 77.
+INFO:tensorflow:Batch 60 / 77.
+INFO:tensorflow:Batch 61 / 77.
+INFO:tensorflow:Batch 62 / 77.
+INFO:tensorflow:Batch 63 / 77.
+INFO:tensorflow:Batch 64 / 77.
+INFO:tensorflow:Batch 65 / 77.
+INFO:tensorflow:Batch 66 / 77.
+INFO:tensorflow:Batch 67 / 77.
+INFO:tensorflow:Batch 68 / 77.
+INFO:tensorflow:Batch 69 / 77.
+INFO:tensorflow:Batch 70 / 77.
+INFO:tensorflow:Batch 71 / 77.
+INFO:tensorflow:Batch 72 / 77.
+INFO:tensorflow:Batch 73 / 77.
+INFO:tensorflow:Batch 74 / 77.
+INFO:tensorflow:Batch 75 / 77.
+INFO:tensorflow:Batch 76 / 77.
+/truba/home/ebudur/anaconda2/envs/tse-gpu/lib/python2.7/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
