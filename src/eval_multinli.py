@@ -8,8 +8,8 @@ from scipy.stats import pearsonr
 from scipy.stats import spearmanr
 from sklearn.utils import shuffle
 
-from keras.models import Sequential
-from keras.layers.core import Dense, Activation
+from keras.models import Sequential, Model
+from keras.layers import Input, Dense
 from keras.optimizers import Adam
 import codecs
 from unicode_tr import unicode_tr
@@ -20,6 +20,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import accuracy_score
 from keras.utils.np_utils import to_categorical
+from keras.optimizers import SGD, Adam
+from keras.callbacks import EarlyStopping
 
 def evaluate(encoder, seed=1234, evaltest=False, loc='./data/', file_meta_data=None, sp=None):
     """
@@ -28,15 +30,15 @@ def evaluate(encoder, seed=1234, evaltest=False, loc='./data/', file_meta_data=N
     
     print 'Preparing data...'
     train, dev, test, labels = load_data(loc, file_meta_data, sp)
-    train[0], train[1], labels[0] = shuffle(train[0], train[1], labels[0], random_state=seed)
+    #train[0], train[1], labels[0] = shuffle(train[0], train[1], labels[0], random_state=seed)
 
     print 'Computing training skipthoughts...'
-    trainA = encoder.encode(train[0], verbose=True, use_eos=True)
-    trainB = encoder.encode(train[1], verbose=True, use_eos=True)
-    
+    trainA = encoder.encode(train[0], verbose=True, use_eos=True, max_sent_len=100)
+    trainB = encoder.encode(train[1], verbose=True, use_eos=True, max_sent_len=100)
+ 
     print 'Computing development skipthoughts...'
-    devA = encoder.encode(dev[0], verbose=True, use_eos=True)
-    devB = encoder.encode(dev[1], verbose=True, use_eos=True)
+    devA = encoder.encode(dev[0], verbose=True, use_eos=True, max_sent_len=100)
+    devB = encoder.encode(dev[1], verbose=True, use_eos=True, max_sent_len=100)
 
     print 'Computing feature combinations...'
     trainF = np.c_[np.abs(trainA - trainB), trainA * trainB]
@@ -45,7 +47,7 @@ def evaluate(encoder, seed=1234, evaltest=False, loc='./data/', file_meta_data=N
     print 'Encoding labels...'
     trainY, label_encoder = train_label_encoder(labels[0])
     devY = encode_labels(labels[1], label_encoder)
-
+    
     print 'Compiling model...'
     lrmodel = prepare_model(ninputs=trainF.shape[1], nclass=trainY.shape[1])
 
@@ -67,7 +69,8 @@ def prepare_test_output(encoder, model, test_data, test_pair_idxs, label_encoder
        testF = np.c_[np.abs(testA - testB), testA * testB]
 
        print 'Evaluating Test Dataset...'
-       test_predicted_class_idxs = model.predict_classes(testF)
+       test_predicted_probs = model.predict(testF)
+       test_predicted_class_idxs = np.argmax(test_predicted_probs,axis=1)
        test_predicted_classes = label_encoder.inverse_transform(test_predicted_class_idxs)
        
        test_output_filename = os.path.join(loc, file_meta_data['file_names']['test_output'])
@@ -81,10 +84,12 @@ def prepare_model(ninputs=9600, nclass=5):
     """
     Set up and compile the model architecture (Logistic regression)
     """
-    lrmodel = Sequential()
-    lrmodel.add(Dense(input_dim=ninputs, output_dim=nclass))
-    lrmodel.add(Activation('softmax'))
-    lrmodel.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    inputs = Input(shape=(ninputs,))
+    outputs = Dense(units=nclass, activation='softmax')(inputs)
+    lrmodel = Model(inputs=inputs, outputs=outputs)
+    optimizer = Adam(lr=0.001)
+    lrmodel.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
+    lrmodel.summary()
     return lrmodel
 
 
@@ -94,31 +99,23 @@ def train_model(lrmodel, X, Y, devX, devY):
     """
     done = False
     best = -1.0
+    early_stopping = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=3)
     
-    while not done:
-        # Every 100 epochs, check Pearson on development set
-        training_history = lrmodel.fit(X, Y, verbose=2, epochs=10, shuffle=False, validation_data=(devX, devY))
-        score = training_history.history['acc'][-1]*100
-        val_score = training_history.history['val_acc'][-1]*100
-        if score > best:
-            print 'Training accuracy:' + str(score) + ' Validation accuracy:' + str(val_score)
-            best = score
-            bestlrmodel = prepare_model(ninputs=X.shape[1], nclass=Y.shape[1])
-            bestlrmodel.set_weights(lrmodel.get_weights())
-        else:
-            done = True
-
-    dev_scores = bestlrmodel.evaluate(devX, devY)
+    training_history = lrmodel.fit(X, Y, verbose=2, epochs=100, shuffle=False, validation_data=(devX, devY), callbacks=[early_stopping])
+    score = training_history.history['acc'][-1]*100
+    val_score = training_history.history['val_acc'][-1]*100
+    print 'Training accuracy:' + str(score) + ' Validation accuracy:' + str(val_score)
+    dev_scores = lrmodel.evaluate(devX, devY)
     score = dev_scores[1]*100
 
     print 'Dev Accuracy: ' + str(score)
-    return bestlrmodel
+    return lrmodel
     
 
 def train_label_encoder(labels):
     label_encoder = LabelEncoder()
     integer_encoded_labels = label_encoder.fit_transform(labels)
-    integer_encoded_labels = integer_encoded_labels.reshape(len(integer_encoded_labels), 1)
+    #integer_encoded_labels = integer_encoded_labels.reshape(len(integer_encoded_labels), 1)
     Y = to_categorical(integer_encoded_labels)
     return Y, label_encoder
 
@@ -127,7 +124,7 @@ def encode_labels(labels, label_encoder):
     One hot label encoding
     """
     integer_encoded_labels = label_encoder.transform(labels)
-    integer_encoded_labels = integer_encoded_labels.reshape(len(integer_encoded_labels), 1)
+    #integer_encoded_labels = integer_encoded_labels.reshape(len(integer_encoded_labels), 1)
     Y = to_categorical(integer_encoded_labels)
     return Y
 
