@@ -27,26 +27,27 @@ We want to build a Generic Sentence Encoder model for the Turkish. However, ther
 
 The results of the following experiments were obtained.
 
-Experiment Name | Language      | Dataset        | Preprocessing                 |  Model # | Metric    | Value
---------------- | ------------- | -------------  | ----------------------------- | -------- | --------- | -------------------
-model1_task1    | English       | SICK           |  Lowercase                    | Model1   | Pearson   | 0.8595461496671714
-model2_task1    | English       | SICK           |  Lowercase + sentencepiece    | Model2   | Pearson   | 0.8470309759444442
-model1_task1    | English       | SICK           |  Lowercase                    | Model1   | Spearman  | 0.7906599787429348
-model2_task1    | English       | SICK           |  Lowercase + sentencepiece    | Model2   | Spearman  | 0.7824858836725014
-model1_task1    | English       | SICK           |  Lowercase                    | Model1   | MSE       | 0.2669741153404767
-model2_task1    | English       | SICK           |  Lowercase + sentencepiece    | Model2   | MSE       | 0.28983657549983965
-model1_task1    | English       | SNLI           |  Lowercase                    | Model1   | Accuracy  | 71.32%
-model2_task1    | English       | SNLI           |  Lowercase + sentencepiece    | Model2   | Accuracy  | 69.63%
-model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                    | Model1   | Pearson   | 0.7767414617451377
-model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | Pearson   | 0.8076206267469718
-model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                    | Model1   | Spearman  | 0.7042856789726142
-model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | Spearman  | 0.7348411904626335
-model1_task2    | Turkish       | SICK-MT-TR     |  Lowercase                    | Model1   | MSE       | 0.40369925427270614
-model2_task2    | Turkish       | SICK-MT-TR     |  Lowercase + sentencepiece    | Model2   | MSE       | 0.3561044127205771
-model1_task2    | Turkish       | SNLI-MT-TR     |  Lowercase                    | Model1   | Accuracy  | 62.41%
-model2_task2    | Turkish       | SNLI-MT-TR     |  Lowercase + sentencepiece    | Model2   | Accuracy  | 64.38%
+Experiment Name | Language      | Dataset            | Preprocessing                 |  Model # | Metric    | Value
+--------------- | ------------- | -----------------  | ----------------------------- | -------- | --------- | -------------------
+model1_task1    | English       | SICK               |  Lowercase                    | Model1   | Pearson   | 0.8595461496671714
+model2_task1    | English       | SICK               |  Lowercase + sentencepiece    | Model2   | Pearson   | 0.8470309759444442
+model1_task1    | English       | SICK               |  Lowercase                    | Model1   | Spearman  | 0.7906599787429348
+model2_task1    | English       | SICK               |  Lowercase + sentencepiece    | Model2   | Spearman  | 0.7824858836725014
+model1_task1    | English       | SICK               |  Lowercase                    | Model1   | MSE       | 0.2669741153404767
+model2_task1    | English       | SICK               |  Lowercase + sentencepiece    | Model2   | MSE       | 0.28983657549983965
+model1_task1    | English       | SNLI               |  Lowercase                    | Model1   | Accuracy  | 71.32%
+model2_task1    | English       | SNLI               |  Lowercase + sentencepiece    | Model2   | Accuracy  | 69.63%
+model1_task1    | English       | MultiNLI (matched) |  Lowercase                    | Model1   | Accuracy  | 59.69%
+model1_task2    | Turkish       | SICK-MT-TR         |  Lowercase                    | Model1   | Pearson   | 0.7767414617451377
+model2_task2    | Turkish       | SICK-MT-TR         |  Lowercase + sentencepiece    | Model2   | Pearson   | 0.8076206267469718
+model1_task2    | Turkish       | SICK-MT-TR         |  Lowercase                    | Model1   | Spearman  | 0.7042856789726142
+model2_task2    | Turkish       | SICK-MT-TR         |  Lowercase + sentencepiece    | Model2   | Spearman  | 0.7348411904626335
+model1_task2    | Turkish       | SICK-MT-TR         |  Lowercase                    | Model1   | MSE       | 0.40369925427270614
+model2_task2    | Turkish       | SICK-MT-TR         |  Lowercase + sentencepiece    | Model2   | MSE       | 0.3561044127205771
+model1_task2    | Turkish       | SNLI-MT-TR         |  Lowercase                    | Model1   | Accuracy  | 62.41%
+model2_task2    | Turkish       | SNLI-MT-TR         |  Lowercase + sentencepiece    | Model2   | Accuracy  | 64.38%
 
-The results of the models on the MultiNLI and XNLI datasets were not included in the table since they need some more analysis.
+Not all results of the models on the MultiNLI and XNLI datasets were included in the table since they need some more analysis.
 
 # Announcements
 
