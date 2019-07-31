@@ -20,7 +20,7 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/truba_scratch/eakbas/software/cuda-9.
 
 WORK_DIR="/truba/home/ebudur/tse-s2v" #needs to be changed according to your specific environment
 
-TASK='MULTINLI-MT-TR-MATCHED'
+TASK='MULTINLI-MT-TR-MISMATCHED'
 
 MDLS_PATH="/truba_scratch/ebudur/data/results"
 MDL_CFGS="$WORK_DIR/model_configs"
