@@ -23,7 +23,7 @@ WORK_DIR="/truba/home/ebudur/tse-s2v" #needs to be changed according to your spe
 DATA_FOLDER="/truba/home/ebudur/tse-s2v/data/bulk_sentences/en/UMBC"
 OUTPUT_MODEL_FILENAME="$DATA_FOLDER/sentencepiece/spm.model"
 
-TASK='MULTINLI-MATCHED'
+TASK='MULTINLI-MISMATCHED'
 
 MDLS_PATH="/truba_scratch/ebudur/data/results"
 MDL_CFGS="$WORK_DIR/model_configs"
