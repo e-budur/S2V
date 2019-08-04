@@ -1,5 +1,5 @@
 # Turkish-Sentence Encoder with Quick-Thought Vectors
-We are a team of graduate students working voluntarily at [Inzva Hacker Space](https://inzva.com) on building a model for Generic Sentence Encoder for the Turkish Language. Generic Sentence Encoders are used to let the computer understand what the user meant by their sentences. They are typically used in converstional assistants to understand the meaning of the user utterances. There are a number of recent research that are proposed for Generic Sentence Encoder for the English language as exemplified below.  
+We are a team of graduate students working voluntarily at [Inzva Hacker Space](https://inzva.com) on building a model for Generic Sentence Encoder for the Turkish Language. Generic Sentence Encoders are used to let the computer understand what the user meant by their sentences. They are typically used in conversational assistants to understand the meaning of the user utterances. There are a number of recent research that are proposed for Generic Sentence Encoder for the English language as exemplified below.  
 
 Universal Sentence Encoder (by Google AI)
 https://ai.google/research/pubs/pub46808
