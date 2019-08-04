@@ -1,6 +1,6 @@
 WORK_DIR="/truba/home/ebudur/tse-s2v" #needs to be changed according to your specific environment
 
-TASK='MULTINLI-MATCHED'
+TASK='XNLI'
 
 MDLS_PATH="/truba_scratch/ebudur/data/results"
 MDL_CFGS="$WORK_DIR/model_configs"
@@ -8,7 +8,7 @@ MDL_CFGS="$WORK_DIR/model_configs"
 
 CFG="UMBC"
 
-DATA="$WORK_DIR/data/sem_sim/eng/MultiNLI_1.0/"
+DATA="$WORK_DIR/data/sem_sim/eng/XNLI-1.0/"
 
 python /truba/home/ebudur/tse-s2v/src/evaluate.py \
        --eval_task=$TASK \

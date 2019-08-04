@@ -1,0 +1,237 @@
+[nltk_data] Downloading package punkt to
+[nltk_data]     /truba/home/ebudur/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Loading sentencepiece model /truba/home/ebudur/tse-s2v/data/bulk_sentences/tr/TR/sentencepiece/spm.model
+model_config <configuration._HParams object at 0x2b1149ba29d0>
+gru
+model_config.checkpoint_path, s2v_encoder.py,  /truba_scratch/ebudur/data/results/TR-SP/train
+II-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR-SP/train
+III-checkpoint_path, s2v_encoder.py /truba_scratch/ebudur/data/results/TR-SP/train/model.ckpt-61653
+Preparing data...
+('loc', '/truba/home/ebudur/tse-s2v/data/sem_sim/tr/XNLI-MT-TR/')
+Computing training skipthoughts...
+Computing development skipthoughts...
+Computing feature combinations...
+Encoding labels...
+Compiling model...
+Training...
+Train on 392702 samples, validate on 2490 samples
+Epoch 1/100
+ - 64s - loss: 1.0140 - acc: 0.4914 - val_loss: 0.9923 - val_acc: 0.5149
+Epoch 2/100
+ - 62s - loss: 0.9842 - acc: 0.5172 - val_loss: 0.9790 - val_acc: 0.5161
+Epoch 3/100
+ - 63s - loss: 0.9766 - acc: 0.5234 - val_loss: 0.9733 - val_acc: 0.5233
+Epoch 4/100
+ - 64s - loss: 0.9726 - acc: 0.5265 - val_loss: 0.9701 - val_acc: 0.5253
+Epoch 5/100
+ - 62s - loss: 0.9700 - acc: 0.5286 - val_loss: 0.9680 - val_acc: 0.5301
+Epoch 6/100
+ - 61s - loss: 0.9682 - acc: 0.5301 - val_loss: 0.9665 - val_acc: 0.5329
+Epoch 7/100
+ - 61s - loss: 0.9667 - acc: 0.5312 - val_loss: 0.9654 - val_acc: 0.5361
+Epoch 8/100
+ - 62s - loss: 0.9656 - acc: 0.5322 - val_loss: 0.9644 - val_acc: 0.5357
+Epoch 9/100
+ - 62s - loss: 0.9646 - acc: 0.5329 - val_loss: 0.9636 - val_acc: 0.5357
+Epoch 10/100
+ - 59s - loss: 0.9638 - acc: 0.5336 - val_loss: 0.9629 - val_acc: 0.5341
+Epoch 11/100
+ - 60s - loss: 0.9630 - acc: 0.5345 - val_loss: 0.9623 - val_acc: 0.5341
+Epoch 12/100
+ - 61s - loss: 0.9624 - acc: 0.5349 - val_loss: 0.9618 - val_acc: 0.5341
+Epoch 13/100
+ - 60s - loss: 0.9618 - acc: 0.5355 - val_loss: 0.9613 - val_acc: 0.5357
+Epoch 14/100
+ - 60s - loss: 0.9612 - acc: 0.5360 - val_loss: 0.9609 - val_acc: 0.5353
+Epoch 15/100
+ - 54s - loss: 0.9607 - acc: 0.5365 - val_loss: 0.9604 - val_acc: 0.5365
+Epoch 16/100
+ - 56s - loss: 0.9603 - acc: 0.5368 - val_loss: 0.9601 - val_acc: 0.5373
+Epoch 17/100
+ - 60s - loss: 0.9599 - acc: 0.5372 - val_loss: 0.9597 - val_acc: 0.5382
+Epoch 18/100
+ - 60s - loss: 0.9595 - acc: 0.5376 - val_loss: 0.9594 - val_acc: 0.5394
+Epoch 19/100
+ - 60s - loss: 0.9591 - acc: 0.5379 - val_loss: 0.9591 - val_acc: 0.5398
+Epoch 20/100
+ - 60s - loss: 0.9588 - acc: 0.5382 - val_loss: 0.9588 - val_acc: 0.5386
+Epoch 21/100
+ - 61s - loss: 0.9585 - acc: 0.5386 - val_loss: 0.9585 - val_acc: 0.5386
+Epoch 22/100
+ - 60s - loss: 0.9582 - acc: 0.5388 - val_loss: 0.9582 - val_acc: 0.5386
+Epoch 23/100
+ - 62s - loss: 0.9579 - acc: 0.5392 - val_loss: 0.9580 - val_acc: 0.5394
+Epoch 24/100
+ - 61s - loss: 0.9576 - acc: 0.5393 - val_loss: 0.9578 - val_acc: 0.5406
+Epoch 25/100
+ - 60s - loss: 0.9573 - acc: 0.5397 - val_loss: 0.9576 - val_acc: 0.5402
+Epoch 26/100
+ - 61s - loss: 0.9571 - acc: 0.5399 - val_loss: 0.9573 - val_acc: 0.5402
+Epoch 27/100
+ - 46s - loss: 0.9569 - acc: 0.5401 - val_loss: 0.9572 - val_acc: 0.5410
+Epoch 28/100
+ - 60s - loss: 0.9566 - acc: 0.5403 - val_loss: 0.9570 - val_acc: 0.5414
+Epoch 29/100
+ - 60s - loss: 0.9564 - acc: 0.5404 - val_loss: 0.9568 - val_acc: 0.5418
+Epoch 30/100
+ - 60s - loss: 0.9562 - acc: 0.5405 - val_loss: 0.9566 - val_acc: 0.5430
+Epoch 31/100
+ - 48s - loss: 0.9560 - acc: 0.5407 - val_loss: 0.9565 - val_acc: 0.5418
+Epoch 32/100
+ - 59s - loss: 0.9559 - acc: 0.5409 - val_loss: 0.9563 - val_acc: 0.5414
+Epoch 33/100
+ - 60s - loss: 0.9557 - acc: 0.5411 - val_loss: 0.9562 - val_acc: 0.5410
+Epoch 34/100
+ - 59s - loss: 0.9555 - acc: 0.5413 - val_loss: 0.9561 - val_acc: 0.5414
+Epoch 35/100
+ - 60s - loss: 0.9554 - acc: 0.5414 - val_loss: 0.9559 - val_acc: 0.5406
+Epoch 36/100
+ - 59s - loss: 0.9552 - acc: 0.5416 - val_loss: 0.9558 - val_acc: 0.5398
+Epoch 37/100
+ - 60s - loss: 0.9551 - acc: 0.5417 - val_loss: 0.9557 - val_acc: 0.5398
+Epoch 38/100
+ - 60s - loss: 0.9549 - acc: 0.5417 - val_loss: 0.9556 - val_acc: 0.5402
+Epoch 39/100
+ - 60s - loss: 0.9548 - acc: 0.5419 - val_loss: 0.9555 - val_acc: 0.5402
+Epoch 40/100
+ - 60s - loss: 0.9546 - acc: 0.5420 - val_loss: 0.9554 - val_acc: 0.5410
+Epoch 41/100
+ - 60s - loss: 0.9545 - acc: 0.5421 - val_loss: 0.9553 - val_acc: 0.5414
+Epoch 42/100
+ - 60s - loss: 0.9544 - acc: 0.5422 - val_loss: 0.9552 - val_acc: 0.5414
+Epoch 43/100
+ - 60s - loss: 0.9543 - acc: 0.5423 - val_loss: 0.9551 - val_acc: 0.5418
+Epoch 44/100
+ - 61s - loss: 0.9541 - acc: 0.5424 - val_loss: 0.9550 - val_acc: 0.5434
+Epoch 45/100
+ - 60s - loss: 0.9540 - acc: 0.5425 - val_loss: 0.9550 - val_acc: 0.5438
+Epoch 46/100
+ - 61s - loss: 0.9539 - acc: 0.5426 - val_loss: 0.9549 - val_acc: 0.5438
+Epoch 47/100
+ - 60s - loss: 0.9538 - acc: 0.5427 - val_loss: 0.9548 - val_acc: 0.5442
+Epoch 48/100
+ - 64s - loss: 0.9537 - acc: 0.5428 - val_loss: 0.9547 - val_acc: 0.5450
+Epoch 49/100
+ - 67s - loss: 0.9536 - acc: 0.5429 - val_loss: 0.9547 - val_acc: 0.5450
+Epoch 50/100
+ - 57s - loss: 0.9535 - acc: 0.5430 - val_loss: 0.9546 - val_acc: 0.5446
+Epoch 51/100
+ - 66s - loss: 0.9534 - acc: 0.5431 - val_loss: 0.9545 - val_acc: 0.5446
+Epoch 52/100
+ - 66s - loss: 0.9533 - acc: 0.5432 - val_loss: 0.9545 - val_acc: 0.5442
+Epoch 53/100
+ - 67s - loss: 0.9532 - acc: 0.5432 - val_loss: 0.9544 - val_acc: 0.5442
+Epoch 54/100
+ - 67s - loss: 0.9532 - acc: 0.5433 - val_loss: 0.9544 - val_acc: 0.5446
+Epoch 55/100
+ - 67s - loss: 0.9531 - acc: 0.5435 - val_loss: 0.9543 - val_acc: 0.5446
+Epoch 56/100
+ - 67s - loss: 0.9530 - acc: 0.5435 - val_loss: 0.9543 - val_acc: 0.5442
+Epoch 57/100
+ - 66s - loss: 0.9529 - acc: 0.5436 - val_loss: 0.9542 - val_acc: 0.5446
+Epoch 58/100
+ - 65s - loss: 0.9528 - acc: 0.5437 - val_loss: 0.9542 - val_acc: 0.5450
+Epoch 59/100
+ - 58s - loss: 0.9528 - acc: 0.5437 - val_loss: 0.9541 - val_acc: 0.5446
+Epoch 60/100
+ - 61s - loss: 0.9527 - acc: 0.5437 - val_loss: 0.9541 - val_acc: 0.5446
+Epoch 61/100
+ - 60s - loss: 0.9526 - acc: 0.5439 - val_loss: 0.9541 - val_acc: 0.5442
+Epoch 62/100
+ - 61s - loss: 0.9526 - acc: 0.5439 - val_loss: 0.9540 - val_acc: 0.5442
+Epoch 63/100
+ - 56s - loss: 0.9525 - acc: 0.5440 - val_loss: 0.9540 - val_acc: 0.5438
+Epoch 64/100
+ - 49s - loss: 0.9524 - acc: 0.5441 - val_loss: 0.9539 - val_acc: 0.5438
+Epoch 65/100
+ - 52s - loss: 0.9524 - acc: 0.5441 - val_loss: 0.9539 - val_acc: 0.5438
+Epoch 66/100
+ - 49s - loss: 0.9523 - acc: 0.5442 - val_loss: 0.9539 - val_acc: 0.5442
+Epoch 67/100
+ - 58s - loss: 0.9522 - acc: 0.5442 - val_loss: 0.9538 - val_acc: 0.5446
+Epoch 68/100
+ - 60s - loss: 0.9522 - acc: 0.5442 - val_loss: 0.9538 - val_acc: 0.5458
+Epoch 69/100
+ - 61s - loss: 0.9521 - acc: 0.5443 - val_loss: 0.9538 - val_acc: 0.5454
+Epoch 70/100
+ - 60s - loss: 0.9521 - acc: 0.5443 - val_loss: 0.9538 - val_acc: 0.5458
+Epoch 71/100
+ - 60s - loss: 0.9520 - acc: 0.5444 - val_loss: 0.9537 - val_acc: 0.5462
+Epoch 72/100
+ - 60s - loss: 0.9519 - acc: 0.5444 - val_loss: 0.9537 - val_acc: 0.5458
+Epoch 73/100
+ - 60s - loss: 0.9519 - acc: 0.5444 - val_loss: 0.9537 - val_acc: 0.5466
+Epoch 74/100
+ - 58s - loss: 0.9518 - acc: 0.5445 - val_loss: 0.9536 - val_acc: 0.5466
+Epoch 75/100
+ - 53s - loss: 0.9518 - acc: 0.5445 - val_loss: 0.9536 - val_acc: 0.5466
+Epoch 76/100
+ - 45s - loss: 0.9517 - acc: 0.5445 - val_loss: 0.9536 - val_acc: 0.5466
+Epoch 77/100
+ - 44s - loss: 0.9517 - acc: 0.5445 - val_loss: 0.9536 - val_acc: 0.5466
+Epoch 78/100
+ - 45s - loss: 0.9516 - acc: 0.5446 - val_loss: 0.9536 - val_acc: 0.5462
+Epoch 79/100
+ - 60s - loss: 0.9516 - acc: 0.5447 - val_loss: 0.9535 - val_acc: 0.5466
+Epoch 80/100
+ - 60s - loss: 0.9516 - acc: 0.5447 - val_loss: 0.9535 - val_acc: 0.5470
+Epoch 81/100
+ - 62s - loss: 0.9515 - acc: 0.5448 - val_loss: 0.9535 - val_acc: 0.5466
+Epoch 82/100
+ - 52s - loss: 0.9515 - acc: 0.5448 - val_loss: 0.9535 - val_acc: 0.5466
+Epoch 83/100
+ - 60s - loss: 0.9514 - acc: 0.5448 - val_loss: 0.9535 - val_acc: 0.5474
+Epoch 84/100
+ - 60s - loss: 0.9514 - acc: 0.5448 - val_loss: 0.9534 - val_acc: 0.5470
+Epoch 85/100
+ - 60s - loss: 0.9513 - acc: 0.5449 - val_loss: 0.9534 - val_acc: 0.5470
+Epoch 86/100
+ - 60s - loss: 0.9513 - acc: 0.5449 - val_loss: 0.9534 - val_acc: 0.5470
+Epoch 87/100
+ - 58s - loss: 0.9513 - acc: 0.5450 - val_loss: 0.9534 - val_acc: 0.5462
+Epoch 88/100
+ - 57s - loss: 0.9512 - acc: 0.5450 - val_loss: 0.9534 - val_acc: 0.5466
+Epoch 89/100
+ - 60s - loss: 0.9512 - acc: 0.5450 - val_loss: 0.9534 - val_acc: 0.5462
+Epoch 90/100
+ - 58s - loss: 0.9512 - acc: 0.5450 - val_loss: 0.9533 - val_acc: 0.5462
+Epoch 91/100
+ - 48s - loss: 0.9511 - acc: 0.5450 - val_loss: 0.9533 - val_acc: 0.5466
+Epoch 92/100
+ - 60s - loss: 0.9511 - acc: 0.5450 - val_loss: 0.9533 - val_acc: 0.5470
+Epoch 93/100
+ - 61s - loss: 0.9510 - acc: 0.5451 - val_loss: 0.9533 - val_acc: 0.5470
+Epoch 94/100
+ - 46s - loss: 0.9510 - acc: 0.5451 - val_loss: 0.9533 - val_acc: 0.5474
+Epoch 95/100
+ - 56s - loss: 0.9510 - acc: 0.5451 - val_loss: 0.9533 - val_acc: 0.5470
+Epoch 96/100
+ - 61s - loss: 0.9509 - acc: 0.5451 - val_loss: 0.9533 - val_acc: 0.5474
+Epoch 97/100
+ - 60s - loss: 0.9509 - acc: 0.5452 - val_loss: 0.9533 - val_acc: 0.5474
+Epoch 98/100
+ - 60s - loss: 0.9509 - acc: 0.5452 - val_loss: 0.9533 - val_acc: 0.5470
+Epoch 99/100
+ - 60s - loss: 0.9508 - acc: 0.5453 - val_loss: 0.9532 - val_acc: 0.5470
+Epoch 100/100
+ - 60s - loss: 0.9508 - acc: 0.5453 - val_loss: 0.9532 - val_acc: 0.5470
+Training accuracy:54.52837011291882 Validation accuracy:54.698795175935366
+
+  32/2490 [..............................] - ETA: 0s
+ 768/2490 [========>.....................] - ETA: 0s
+1472/2490 [================>.............] - ETA: 0s
+2208/2490 [=========================>....] - ETA: 0s
+2490/2490 [==============================] - 0s 71us/step
+Dev Accuracy: 54.698795175935366
+Computing test quickthoughts...
+Computing feature combinations...
+Evaluating Test Dataset...
+
+  32/5010 [..............................] - ETA: 0s
+1280/5010 [======>.......................] - ETA: 0s
+2496/5010 [=============>................] - ETA: 0s
+3680/5010 [=====================>........] - ETA: 0s
+4864/5010 [============================>.] - ETA: 0s
+5010/5010 [==============================] - 0s 42us/step
+acc: 54.33%
