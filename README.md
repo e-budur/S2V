@@ -51,6 +51,8 @@ model1_task2    | Turkish       | SNLI-MT-TR            |  Lowercase            
 model2_task2    | Turkish       | SNLI-MT-TR            |  Lowercase + sentencepiece    | Model2   | Accuracy  | 64.38%
 model1_task2    | Turkish       | MultiNLI (matched)    |  Lowercase                    | Model2   | Accuracy  | 50.84%
 model1_task2    | Turkish       | MultiNLI (mismatched) |  Lowercase                    | Model2   | Accuracy  | 51.61%
+model2_task2    | Turkish       | MultiNLI (matched)    |  Lowercase + sentencepiece    | Model2   | Accuracy  | 59.04%
+model2_task2    | Turkish       | MultiNLI (mismatched) |  Lowercase + sentencepiece    | Model2   | Accuracy  | 53.36%
 
 Not all results of the models on the MultiNLI and XNLI datasets were included in the table since they need some more analysis.
 
