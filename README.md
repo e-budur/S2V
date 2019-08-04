@@ -41,6 +41,8 @@ model1_task1    | English       | MultiNLI (matched)    |  Lowercase            
 model1_task1    | English       | MultiNLI (mismatched) |  Lowercase                    | Model1   | Accuracy  | 60.84%
 model2_task1    | English       | MultiNLI (matched)    |  Lowercase + sentencepiece    | Model2   | Accuracy  | 59.04%
 model2_task1    | English       | MultiNLI (mismatched) |  Lowercase + sentencepiece    | Model2   | Accuracy  | 60.27%
+model1_task1    | English       | XNLI                  |  Lowercase                    | Model1   | Accuracy  | 60.36%
+model2_task1    | English       | XNLI                  |  Lowercase + sentencepiece    | Model2   | Accuracy  | 59.12%
 model1_task2    | Turkish       | SICK-MT-TR            |  Lowercase                    | Model1   | Pearson   | 0.7767414617451377
 model2_task2    | Turkish       | SICK-MT-TR            |  Lowercase + sentencepiece    | Model2   | Pearson   | 0.8076206267469718
 model1_task2    | Turkish       | SICK-MT-TR            |  Lowercase                    | Model1   | Spearman  | 0.7042856789726142
@@ -53,8 +55,10 @@ model1_task2    | Turkish       | MultiNLI (matched)    |  Lowercase            
 model1_task2    | Turkish       | MultiNLI (mismatched) |  Lowercase                    | Model2   | Accuracy  | 51.61%
 model2_task2    | Turkish       | MultiNLI (matched)    |  Lowercase + sentencepiece    | Model2   | Accuracy  | 59.04%
 model2_task2    | Turkish       | MultiNLI (mismatched) |  Lowercase + sentencepiece    | Model2   | Accuracy  | 53.36%
+model1_task2    | English       | XNLI                  |  Lowercase                    | Model1   | Accuracy  | 53.35%
+model2_task2    | Turkish       | XNLI                  |  Lowercase + sentencepiece    | Model2   | Accuracy  | 54.33%
 
-Not all results of the models on XNLI datasets were included in the table since they need some more analysis.
+Note: We are working on the presentation of the results in an more readable, understandable and interpretable way. Stay tuned :)
 
 # Announcements
 
