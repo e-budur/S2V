@@ -28,6 +28,7 @@ import eval_sick
 import eval_trec
 import eval_nli
 import eval_multinli
+import eval_xnli
 
 import tensorflow as tf
 import numpy as np
@@ -208,9 +209,11 @@ def main(unused_argv):
                   'sentence2':'translate-sentence2'
                },
 
-               'label_classes':['contradiction','entailment', 'neutral']
+               'label_classes':['contradiction','entailment', 'neutral'],
+
+               'language': 'any'
     }
-    eval_nli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+    eval_xnli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
   elif FLAGS.eval_task == 'XNLI':
     file_meta_data = {
                'file_names':{
@@ -224,9 +227,11 @@ def main(unused_argv):
                   'sentence2':'sentence2'
                },
 
-               'label_classes':['contradiction','entailment', 'neutral']
+               'label_classes':['contradiction','entailment', 'neutral'],
+
+               'language':'en'
     }
-    eval_mutlinli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
+    eval_xnli.evaluate(encoder, evaltest=True, loc=FLAGS.data_dir, file_meta_data=file_meta_data, sp=sp)
 
   else:
        raise ValueError("Unrecognized eval_task: %s" % FLAGS.eval_task)
