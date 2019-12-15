@@ -62,11 +62,15 @@ Note: We are working on the presentation of the results in an more readable, und
 
 # Announcements
 
+:dart: (2019-09-30) We have applied for the AWS Research Credits again to translate some well known NLI and Textual Entailment datasets into Turkish.
+
 :hatching_chick: (2018-10-26) Our research has been awarded free GPU resource by [TRUBA](https://www.truba.gov.tr)  which is the Turkish Science e-Infrastructure that is provided by The Scientific and Technological Research Council of Turkey ([TUBITAK](https://www.tubitak.gov.tr/en)).
 
 :hatching_chick: (2019-01-26) Our research has been granted [AWS Research Credits](https://twitter.com/ebudur/status/1090301816183685120)   to translate the most commong NLI datasets into Turkish and evaluate our resulting NLI models.
 
 :dart: (2019-03-31) We have applied for the AWS Research Credits again to translate all available NLI and Textual Entailment datasets into Turkish.
+
+:hatching_chick: (2019-10-18) Our research has been granted [AWS Research Credits] to keep translating the NLI datasets into Turkish and evaluate our resulting NLI models.
 
 - - - -
 
