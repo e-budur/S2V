@@ -70,7 +70,7 @@ Note: We are working on the presentation of the results in an more readable, und
 
 :dart: (2019-03-31) We have applied for the AWS Research Credits again to translate all available NLI and Textual Entailment datasets into Turkish.
 
-:hatching_chick: (2019-10-18) Our research has been granted [AWS Research Credits] to keep translating the NLI datasets into Turkish and evaluate our resulting NLI models.
+:hatching_chick: (2019-10-18) Our research has been granted [AWS Research Credits] (https://aws.amazon.com/tr/research-credits/) to keep translating the NLI datasets into Turkish and evaluate our resulting NLI models.
 
 - - - -
 
